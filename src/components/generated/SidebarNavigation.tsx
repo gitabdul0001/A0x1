@@ -23,64 +23,64 @@ interface SidebarNavigationProps {
 }
 const navigationItems: NavigationItem[] = [{
   id: 'home',
-  label: 'Home Dashboard',
+  label: 'Dashboard',
   icon: Home,
   isPrimary: true,
-  mpid: "c93ca628-9844-4fee-b3c9-0c8a11a10f15"
+  mpid: "e52cf31e-021a-47f2-96fd-3e4cddfe16e9"
 }, {
   id: 'alerts',
   label: 'Alerts',
   icon: Bell,
   isPrimary: true,
-  mpid: "596e5520-db09-4555-b5a8-d38e00451e35"
+  mpid: "b59d23a8-ec2c-4b59-a961-38b8a2399ea8"
 }, {
   id: 'content',
   label: 'Content Creator',
   icon: PenTool,
   isPrimary: true,
-  mpid: "10e03876-5954-4408-bd63-51e597ea3569"
+  mpid: "cc41bce2-f05a-48ce-bdfd-c88d2f874eba"
 }, {
   id: 'planner',
   label: 'Post Planner',
   icon: Calendar,
   isPrimary: true,
-  mpid: "ccb416a7-37b5-46cf-a22e-2ac5a6a78024"
+  mpid: "2d876cea-bfc7-41af-b093-df73d11b84f4"
 }, {
   id: 'analytics',
   label: 'Analytics',
   icon: BarChart3,
   isPrimary: true,
-  mpid: "37b62504-5809-47b4-8db8-850fcad165f9"
+  mpid: "3918e6ba-8f29-46a3-a4d4-f75640d23965"
 }, {
   id: 'preferences',
   label: 'Preferences',
   icon: Settings,
   isPrimary: true,
-  mpid: "c727a4e3-11f8-4865-8bc9-11e47f02448b"
+  mpid: "d0190f2f-bcf6-43ca-a8e8-e5a328c2ed56"
 }, {
   id: 'connections',
   label: 'Connections',
   icon: Link,
   isPrimary: true,
-  mpid: "c196af70-6b91-4a42-baed-2acaf4564fd3"
+  mpid: "21fcde78-62f9-4410-b67c-82fc06c0e0f5"
 }, {
   id: 'content-hub',
   label: 'Content Hub',
   icon: FolderOpen,
   isPrimary: false,
-  mpid: "8691e627-4564-4140-bd99-7e9f4b562a7d"
+  mpid: "d7fe2136-f813-4c31-a855-c4e086e03713"
 }, {
   id: 'audience',
   label: 'Audience Analytics',
   icon: Users,
   isPrimary: false,
-  mpid: "eb5f72be-266e-4158-9803-3d7399b22ec7"
+  mpid: "9195d162-32f1-4bea-887f-4f59026f0ed8"
 }, {
   id: 'hashtags',
   label: 'Hashtag Organizer',
   icon: Hash,
   isPrimary: false,
-  mpid: "4aea77e3-99b1-4db8-9f1e-293c33d3f1e3"
+  mpid: "8977fb3d-1c31-4217-a63f-2e3b13d0adf8"
 }];
 const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
   activeSection,

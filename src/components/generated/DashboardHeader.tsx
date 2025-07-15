@@ -45,17 +45,17 @@ const DashboardHeader: React.FC<DashboardHeaderProps> = ({
     icon: User,
     label: 'Profile Settings',
     action: () => {},
-    mpid: "bb1817bd-710f-43c9-a002-7941e8954325"
+    mpid: "7de99ba1-a8e5-412c-8a6a-dd2798a2290b"
   }, {
     icon: Settings,
     label: 'Account Settings',
     action: () => {},
-    mpid: "96700a3f-43c8-4aa0-a1b3-cb4ebd1f399f"
+    mpid: "1ad29dd3-25b8-4003-872f-9f73a3c90694"
   }, {
     icon: LogOut,
     label: 'Sign Out',
     action: () => {},
-    mpid: "0049d72f-27fe-475f-8b6f-1fdeecd2fe6f"
+    mpid: "aba6fe4c-6e30-442b-aa28-a970f554844f"
   }] as any[];
   return <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 px-4 py-3" data-magicpath-id="10" data-magicpath-path="DashboardHeader.tsx">
       <div className="flex items-center justify-between" data-magicpath-id="11" data-magicpath-path="DashboardHeader.tsx">
@@ -176,7 +176,7 @@ const DashboardHeader: React.FC<DashboardHeaderProps> = ({
                 x: 4
               }} data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-id="41" data-magicpath-path="DashboardHeader.tsx">
                       <item.icon size={16} className="text-gray-500 dark:text-gray-400" data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-id="42" data-magicpath-path="DashboardHeader.tsx" />
-                      <span data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-field="label:string" data-magicpath-id="43" data-magicpath-path="DashboardHeader.tsx">{item.label}</span>
+                      <span data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-field="label:unknown" data-magicpath-id="43" data-magicpath-path="DashboardHeader.tsx">{item.label}</span>
                     </motion.button>)}
                 </motion.div>}
             </AnimatePresence>
