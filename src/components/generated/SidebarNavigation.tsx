@@ -9,7 +9,6 @@ interface NavigationItem {
     className?: string;
   }>;
   isPrimary: boolean;
-  mpid?: string;
 }
 interface SidebarNavigationProps {
   activeSection: string;
@@ -19,68 +18,57 @@ interface SidebarNavigationProps {
   onSectionChange: (section: string) => void;
   onToggleCollapse: () => void;
   onToggleMobileMenu: () => void;
-  mpid?: string;
 }
 const navigationItems: NavigationItem[] = [{
   id: 'home',
   label: 'Dashboard',
   icon: Home,
-  isPrimary: true,
-  mpid: "448e67f5-ff86-4c60-b33f-6c1e44e7ebd3"
+  isPrimary: true
 }, {
   id: 'alerts',
   label: 'Alerts',
   icon: Bell,
-  isPrimary: true,
-  mpid: "020f3746-fcc6-453b-86a0-929438d52f7d"
+  isPrimary: true
 }, {
   id: 'content',
   label: 'Content Creator',
   icon: PenTool,
-  isPrimary: true,
-  mpid: "17687198-0d8a-47a9-a37f-ed552a62e370"
+  isPrimary: true
 }, {
   id: 'planner',
   label: 'Post Planner',
   icon: Calendar,
-  isPrimary: true,
-  mpid: "b789f115-870a-430e-b3dd-a8808dd72a42"
+  isPrimary: true
 }, {
   id: 'analytics',
   label: 'Analytics',
   icon: BarChart3,
-  isPrimary: true,
-  mpid: "b597a26b-e3a2-427f-a8f8-93c145a8941c"
+  isPrimary: true
 }, {
   id: 'preferences',
   label: 'Preferences',
   icon: Settings,
-  isPrimary: true,
-  mpid: "d688ec47-430e-4d65-be9e-e6a7a7b05521"
+  isPrimary: true
 }, {
   id: 'connections',
   label: 'Connections',
   icon: Link,
-  isPrimary: true,
-  mpid: "f173f856-2047-47e7-95c1-36dea41a3389"
+  isPrimary: true
 }, {
   id: 'content-hub',
   label: 'Content Hub',
   icon: FolderOpen,
-  isPrimary: false,
-  mpid: "ed771deb-1f92-42aa-af78-faa1624a590b"
+  isPrimary: false
 }, {
   id: 'audience',
   label: 'Audience Analytics',
   icon: Users,
-  isPrimary: false,
-  mpid: "bcbc76b7-ddba-42f5-b828-7704ae058205"
+  isPrimary: false
 }, {
   id: 'hashtags',
   label: 'Hashtag Organizer',
   icon: Hash,
-  isPrimary: false,
-  mpid: "42c6a4f4-2e38-496c-ae94-4dcfe897baf5"
+  isPrimary: false
 }];
 const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
   activeSection,
@@ -113,10 +101,10 @@ const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
       onToggleMobileMenu();
     }
   };
-  const SidebarContent = () => <div className="flex flex-col h-full" data-magicpath-id="0" data-magicpath-path="SidebarNavigation.tsx">
+  const SidebarContent = () => <div className="flex flex-col h-full">
       {/* Logo Section */}
-      <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700" data-magicpath-id="1" data-magicpath-path="SidebarNavigation.tsx">
-        <AnimatePresence mode="wait" data-magicpath-id="2" data-magicpath-path="SidebarNavigation.tsx">
+      <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700">
+        <AnimatePresence mode="wait">
           {!isCollapsed && <motion.div initial={{
           opacity: 0,
           x: -20
@@ -126,108 +114,108 @@ const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
         }} exit={{
           opacity: 0,
           x: -20
-        }} className="flex items-center space-x-2" data-magicpath-id="3" data-magicpath-path="SidebarNavigation.tsx">
-              <div className="w-8 h-8 rounded-lg flex items-center justify-center" data-magicpath-id="4" data-magicpath-path="SidebarNavigation.tsx">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 375 374.999991" preserveAspectRatio="xMidYMid meet" version="1.2" data-magicpath-id="5" data-magicpath-path="SidebarNavigation.tsx">
-                  <defs data-magicpath-id="6" data-magicpath-path="SidebarNavigation.tsx">
-                    <clipPath id="7a447a7b48" data-magicpath-id="7" data-magicpath-path="SidebarNavigation.tsx"><path d="M 109.125 181.933594 L 161.625 181.933594 L 161.625 234.433594 L 109.125 234.433594 Z M 109.125 181.933594 " data-magicpath-id="8" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
-                    <clipPath id="69a4bb68e6" data-magicpath-id="9" data-magicpath-path="SidebarNavigation.tsx"><path d="M 109.125 130.183594 L 161.625 130.183594 L 161.625 182.683594 L 109.125 182.683594 Z M 109.125 130.183594 " data-magicpath-id="10" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
-                    <clipPath id="1346d79464" data-magicpath-id="11" data-magicpath-path="SidebarNavigation.tsx"><path d="M 213.375 181.933594 L 265.875 181.933594 L 265.875 234.433594 L 213.375 234.433594 Z M 213.375 181.933594 " data-magicpath-id="12" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
-                    <clipPath id="e0afa5629e" data-magicpath-id="13" data-magicpath-path="SidebarNavigation.tsx"><path d="M 213.375 208.183594 C 213.375 201.21875 216.140625 194.542969 221.0625 189.621094 C 225.984375 184.699219 232.664062 181.933594 239.625 181.933594 C 246.585938 181.933594 253.265625 184.699219 258.1875 189.621094 C 263.109375 194.542969 265.875 201.21875 265.875 208.183594 C 265.875 215.144531 263.109375 221.820312 258.1875 226.742188 C 253.265625 231.667969 246.585938 234.433594 239.625 234.433594 C 232.664062 234.433594 225.984375 231.667969 221.0625 226.742188 C 216.140625 221.820312 213.375 215.144531 213.375 208.183594 Z M 213.375 208.183594 " data-magicpath-id="14" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
-                    <clipPath id="7e559bee84" data-magicpath-id="15" data-magicpath-path="SidebarNavigation.tsx"><path d="M 161.625 181.933594 L 214.125 181.933594 L 214.125 234.433594 L 161.625 234.433594 Z M 161.625 181.933594 " data-magicpath-id="16" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
-                    <clipPath id="497bfb539c" data-magicpath-id="17" data-magicpath-path="SidebarNavigation.tsx"><path d="M 109.125 69.617188 L 214.125 69.617188 L 214.125 122.117188 L 109.125 122.117188 Z M 109.125 69.617188 " data-magicpath-id="18" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
-                    <clipPath id="14ca239f8c" data-magicpath-id="19" data-magicpath-path="SidebarNavigation.tsx"><path d="M 214.125 95.867188 C 214.125 102.828125 211.359375 109.507812 206.4375 114.429688 C 201.515625 119.351562 194.835938 122.117188 187.875 122.117188 L 135.375 122.117188 C 128.414062 122.117188 121.734375 119.351562 116.8125 114.429688 C 111.890625 109.507812 109.125 102.828125 109.125 95.867188 C 109.125 88.90625 111.890625 82.230469 116.8125 77.304688 C 121.734375 72.382812 128.414062 69.617188 135.375 69.617188 L 187.875 69.617188 C 194.835938 69.617188 201.515625 72.382812 206.4375 77.304688 C 211.359375 82.230469 214.125 88.90625 214.125 95.867188 Z M 214.125 95.867188 " data-magicpath-id="20" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
-                    <clipPath id="f1bf27afc0" data-magicpath-id="21" data-magicpath-path="SidebarNavigation.tsx"><path d="M 213.375 69.617188 L 265.875 69.617188 L 265.875 122.117188 L 213.375 122.117188 Z M 213.375 69.617188 " data-magicpath-id="22" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
-                    <clipPath id="8af721dc9c" data-magicpath-id="23" data-magicpath-path="SidebarNavigation.tsx"><path d="M 213.375 121.367188 L 265.875 121.367188 L 265.875 173.867188 L 213.375 173.867188 Z M 213.375 121.367188 " data-magicpath-id="24" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
-                    <clipPath id="ae7f69b539" data-magicpath-id="25" data-magicpath-path="SidebarNavigation.tsx"><path d="M 213.375 181.933594 L 239.625 181.933594 L 239.625 234.433594 L 213.375 234.433594 Z M 213.375 181.933594 " data-magicpath-id="26" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
-                    <clipPath id="f74768e930" data-magicpath-id="27" data-magicpath-path="SidebarNavigation.tsx"><path d="M 132.058594 69.617188 L 214.125 69.617188 L 214.125 122.117188 L 132.058594 122.117188 Z M 132.058594 69.617188 " data-magicpath-id="28" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
+        }} className="flex items-center space-x-2">
+              <div className="w-8 h-8 rounded-lg flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 375 374.999991" preserveAspectRatio="xMidYMid meet" version="1.2">
+                  <defs>
+                    <clipPath id="7a447a7b48"><path d="M 109.125 181.933594 L 161.625 181.933594 L 161.625 234.433594 L 109.125 234.433594 Z M 109.125 181.933594 " /></clipPath>
+                    <clipPath id="69a4bb68e6"><path d="M 109.125 130.183594 L 161.625 130.183594 L 161.625 182.683594 L 109.125 182.683594 Z M 109.125 130.183594 " /></clipPath>
+                    <clipPath id="1346d79464"><path d="M 213.375 181.933594 L 265.875 181.933594 L 265.875 234.433594 L 213.375 234.433594 Z M 213.375 181.933594 " /></clipPath>
+                    <clipPath id="e0afa5629e"><path d="M 213.375 208.183594 C 213.375 201.21875 216.140625 194.542969 221.0625 189.621094 C 225.984375 184.699219 232.664062 181.933594 239.625 181.933594 C 246.585938 181.933594 253.265625 184.699219 258.1875 189.621094 C 263.109375 194.542969 265.875 201.21875 265.875 208.183594 C 265.875 215.144531 263.109375 221.820312 258.1875 226.742188 C 253.265625 231.667969 246.585938 234.433594 239.625 234.433594 C 232.664062 234.433594 225.984375 231.667969 221.0625 226.742188 C 216.140625 221.820312 213.375 215.144531 213.375 208.183594 Z M 213.375 208.183594 " /></clipPath>
+                    <clipPath id="7e559bee84"><path d="M 161.625 181.933594 L 214.125 181.933594 L 214.125 234.433594 L 161.625 234.433594 Z M 161.625 181.933594 " /></clipPath>
+                    <clipPath id="497bfb539c"><path d="M 109.125 69.617188 L 214.125 69.617188 L 214.125 122.117188 L 109.125 122.117188 Z M 109.125 69.617188 " /></clipPath>
+                    <clipPath id="14ca239f8c"><path d="M 214.125 95.867188 C 214.125 102.828125 211.359375 109.507812 206.4375 114.429688 C 201.515625 119.351562 194.835938 122.117188 187.875 122.117188 L 135.375 122.117188 C 128.414062 122.117188 121.734375 119.351562 116.8125 114.429688 C 111.890625 109.507812 109.125 102.828125 109.125 95.867188 C 109.125 88.90625 111.890625 82.230469 116.8125 77.304688 C 121.734375 72.382812 128.414062 69.617188 135.375 69.617188 L 187.875 69.617188 C 194.835938 69.617188 201.515625 72.382812 206.4375 77.304688 C 211.359375 82.230469 214.125 88.90625 214.125 95.867188 Z M 214.125 95.867188 " /></clipPath>
+                    <clipPath id="f1bf27afc0"><path d="M 213.375 69.617188 L 265.875 69.617188 L 265.875 122.117188 L 213.375 122.117188 Z M 213.375 69.617188 " /></clipPath>
+                    <clipPath id="8af721dc9c"><path d="M 213.375 121.367188 L 265.875 121.367188 L 265.875 173.867188 L 213.375 173.867188 Z M 213.375 121.367188 " /></clipPath>
+                    <clipPath id="ae7f69b539"><path d="M 213.375 181.933594 L 239.625 181.933594 L 239.625 234.433594 L 213.375 234.433594 Z M 213.375 181.933594 " /></clipPath>
+                    <clipPath id="f74768e930"><path d="M 132.058594 69.617188 L 214.125 69.617188 L 214.125 122.117188 L 132.058594 122.117188 Z M 132.058594 69.617188 " /></clipPath>
                   </defs>
-                  <g data-magicpath-id="29" data-magicpath-path="SidebarNavigation.tsx">
+                  <g>
                     <rect x="0" width="375" y="0" height="374.999991" style={{
                   fill: "#ffffff",
                   fillOpacity: 1,
                   stroke: "none"
-                }} data-magicpath-id="30" data-magicpath-path="SidebarNavigation.tsx" />
+                }} />
                     <rect x="0" width="375" y="0" height="374.999991" style={{
                   fill: "#ffffff",
                   fillOpacity: 1,
                   stroke: "none"
-                }} data-magicpath-id="31" data-magicpath-path="SidebarNavigation.tsx" />
-                    <g clipPath="url(#7a447a7b48)" data-magicpath-id="32" data-magicpath-path="SidebarNavigation.tsx">
+                }} />
+                    <g clipPath="url(#7a447a7b48)">
                       <path style={{
                     stroke: "none",
                     fillRule: "nonzero",
                     fill: "#fc7557",
                     fillOpacity: 1
-                  }} d="M 109.125 181.933594 L 161.625 181.933594 L 161.625 234.433594 L 109.125 234.433594 Z M 109.125 181.933594 " data-magicpath-id="33" data-magicpath-path="SidebarNavigation.tsx" />
+                  }} d="M 109.125 181.933594 L 161.625 181.933594 L 161.625 234.433594 L 109.125 234.433594 Z M 109.125 181.933594 " />
                     </g>
-                    <g clipPath="url(#69a4bb68e6)" data-magicpath-id="34" data-magicpath-path="SidebarNavigation.tsx">
+                    <g clipPath="url(#69a4bb68e6)">
                       <path style={{
                     stroke: "none",
                     fillRule: "nonzero",
                     fill: "#989cfc",
                     fillOpacity: 1
-                  }} d="M 161.625 130.183594 C 132.628906 130.183594 109.125 153.6875 109.125 182.683594 L 161.625 182.683594 Z M 161.625 130.183594 " data-magicpath-id="35" data-magicpath-path="SidebarNavigation.tsx" />
+                  }} d="M 161.625 130.183594 C 132.628906 130.183594 109.125 153.6875 109.125 182.683594 L 161.625 182.683594 Z M 161.625 130.183594 " />
                     </g>
-                    <g clipPath="url(#1346d79464)" data-magicpath-id="36" data-magicpath-path="SidebarNavigation.tsx">
-                      <g clipPath="url(#e0afa5629e)" data-magicpath-id="37" data-magicpath-path="SidebarNavigation.tsx">
+                    <g clipPath="url(#1346d79464)">
+                      <g clipPath="url(#e0afa5629e)">
                         <path style={{
                       stroke: "none",
                       fillRule: "nonzero",
                       fill: "#f9c558",
                       fillOpacity: 1
-                    }} d="M 213.375 234.433594 L 213.375 181.933594 L 265.875 181.933594 L 265.875 234.433594 Z M 213.375 234.433594 " data-magicpath-id="38" data-magicpath-path="SidebarNavigation.tsx" />
+                    }} d="M 213.375 234.433594 L 213.375 181.933594 L 265.875 181.933594 L 265.875 234.433594 Z M 213.375 234.433594 " />
                       </g>
                     </g>
-                    <g clipPath="url(#7e559bee84)" data-magicpath-id="39" data-magicpath-path="SidebarNavigation.tsx">
+                    <g clipPath="url(#7e559bee84)">
                       <path style={{
                     stroke: "none",
                     fillRule: "nonzero",
                     fill: "#989cfc",
                     fillOpacity: 1
-                  }} d="M 161.625 181.933594 C 161.625 210.925781 185.128906 234.433594 214.125 234.433594 L 214.125 181.933594 Z M 161.625 181.933594 " data-magicpath-id="40" data-magicpath-path="SidebarNavigation.tsx" />
+                  }} d="M 161.625 181.933594 C 161.625 210.925781 185.128906 234.433594 214.125 234.433594 L 214.125 181.933594 Z M 161.625 181.933594 " />
                     </g>
-                    <g clipPath="url(#497bfb539c)" data-magicpath-id="41" data-magicpath-path="SidebarNavigation.tsx">
-                      <g clipPath="url(#14ca239f8c)" data-magicpath-id="42" data-magicpath-path="SidebarNavigation.tsx">
+                    <g clipPath="url(#497bfb539c)">
+                      <g clipPath="url(#14ca239f8c)">
                         <path style={{
                       stroke: "none",
                       fillRule: "nonzero",
                       fill: "#fc7557",
                       fillOpacity: 1
-                    }} d="M 214.125 69.617188 L 214.125 122.117188 L 109.125 122.117188 L 109.125 69.617188 Z M 214.125 69.617188 " data-magicpath-id="43" data-magicpath-path="SidebarNavigation.tsx" />
+                    }} d="M 214.125 69.617188 L 214.125 122.117188 L 109.125 122.117188 L 109.125 69.617188 Z M 214.125 69.617188 " />
                       </g>
                     </g>
-                    <g clipPath="url(#f1bf27afc0)" data-magicpath-id="44" data-magicpath-path="SidebarNavigation.tsx">
+                    <g clipPath="url(#f1bf27afc0)">
                       <path style={{
                     stroke: "none",
                     fillRule: "nonzero",
                     fill: "#989cfc",
                     fillOpacity: 1
-                  }} d="M 265.875 122.117188 C 265.875 93.121094 242.371094 69.617188 213.375 69.617188 L 213.375 122.117188 Z M 265.875 122.117188 " data-magicpath-id="45" data-magicpath-path="SidebarNavigation.tsx" />
+                  }} d="M 265.875 122.117188 C 265.875 93.121094 242.371094 69.617188 213.375 69.617188 L 213.375 122.117188 Z M 265.875 122.117188 " />
                     </g>
-                    <g clipPath="url(#8af721dc9c)" data-magicpath-id="46" data-magicpath-path="SidebarNavigation.tsx">
+                    <g clipPath="url(#8af721dc9c)">
                       <path style={{
                     stroke: "none",
                     fillRule: "nonzero",
                     fill: "#f9c558",
                     fillOpacity: 1
-                  }} d="M 213.375 173.867188 C 242.371094 173.867188 265.875 150.363281 265.875 121.367188 L 213.375 121.367188 Z M 213.375 173.867188 " data-magicpath-id="47" data-magicpath-path="SidebarNavigation.tsx" />
+                  }} d="M 213.375 173.867188 C 242.371094 173.867188 265.875 150.363281 265.875 121.367188 L 213.375 121.367188 Z M 213.375 173.867188 " />
                     </g>
-                    <g clipPath="url(#ae7f69b539)" data-magicpath-id="48" data-magicpath-path="SidebarNavigation.tsx">
+                    <g clipPath="url(#ae7f69b539)">
                       <path style={{
                     stroke: "none",
                     fillRule: "nonzero",
                     fill: "#fc7557",
                     fillOpacity: 1
-                  }} d="M 213.375 234.433594 L 213.375 181.933594 L 239.625 181.933594 L 239.625 234.433594 Z M 213.375 234.433594 " data-magicpath-id="49" data-magicpath-path="SidebarNavigation.tsx" />
+                  }} d="M 213.375 234.433594 L 213.375 181.933594 L 239.625 181.933594 L 239.625 234.433594 Z M 213.375 234.433594 " />
                     </g>
-                    <g clipPath="url(#f74768e930)" data-magicpath-id="50" data-magicpath-path="SidebarNavigation.tsx">
+                    <g clipPath="url(#f74768e930)">
                       <path style={{
                     stroke: "none",
                     fillRule: "nonzero",
                     fill: "#f9c558",
                     fillOpacity: 1
-                  }} d="M 214.125 69.617188 L 214.125 122.117188 L 132.09375 122.117188 L 132.09375 69.617188 Z M 214.125 69.617188 " data-magicpath-id="51" data-magicpath-path="SidebarNavigation.tsx" />
+                  }} d="M 214.125 69.617188 L 214.125 122.117188 L 132.09375 122.117188 L 132.09375 69.617188 Z M 214.125 69.617188 " />
                     </g>
                   </g>
                 </svg>
@@ -238,29 +226,29 @@ const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
             marginLeft: "",
             marginRight: "",
             marginBottom: "8px"
-          }} data-magicpath-id="52" data-magicpath-path="SidebarNavigation.tsx"><em data-magicpath-id="53" data-magicpath-path="SidebarNavigation.tsx">R</em>eaxo</h1>
+          }}><em>R</em>eaxo</h1>
             </motion.div>}
         </AnimatePresence>
         
-        <button onClick={onToggleCollapse} className="hidden lg:flex p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label={isCollapsed ? 'Expand sidebar' : 'Collapse sidebar'} data-magicpath-id="54" data-magicpath-path="SidebarNavigation.tsx">
-          {isCollapsed ? <ChevronRight size={16} className="text-gray-600 dark:text-gray-400" data-magicpath-id="55" data-magicpath-path="SidebarNavigation.tsx" /> : <ChevronLeft size={16} className="text-gray-600 dark:text-gray-400" data-magicpath-id="56" data-magicpath-path="SidebarNavigation.tsx" />}
+        <button onClick={onToggleCollapse} className="hidden lg:flex p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label={isCollapsed ? 'Expand sidebar' : 'Collapse sidebar'}>
+          {isCollapsed ? <ChevronRight size={16} className="text-gray-600 dark:text-gray-400" /> : <ChevronLeft size={16} className="text-gray-600 dark:text-gray-400" />}
         </button>
       </div>
 
       {/* Navigation Items */}
-      <nav className="flex-1 p-4 space-y-2 overflow-y-auto" data-magicpath-id="57" data-magicpath-path="SidebarNavigation.tsx">
+      <nav className="flex-1 p-4 space-y-2 overflow-y-auto">
         {/* Primary Items */}
-        <div className="space-y-1" data-magicpath-id="58" data-magicpath-path="SidebarNavigation.tsx">
-          {navigationItems.filter(item => item.isPrimary).map(item => <NavigationItem key={item.id} item={item} isActive={activeSection === item.id} isCollapsed={isCollapsed} accentColor={accentColor} onClick={() => handleItemClick(item.id)} data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-id="59" data-magicpath-path="SidebarNavigation.tsx" />)}
+        <div className="space-y-1">
+          {navigationItems.filter(item => item.isPrimary).map(item => <NavigationItem key={item.id} item={item} isActive={activeSection === item.id} isCollapsed={isCollapsed} accentColor={accentColor} onClick={() => handleItemClick(item.id)} />)}
         </div>
 
         {/* Secondary Items */}
-        {!isCollapsed && <div className="pt-4" data-magicpath-id="60" data-magicpath-path="SidebarNavigation.tsx">
-            <div className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2" data-magicpath-id="61" data-magicpath-path="SidebarNavigation.tsx">
+        {!isCollapsed && <div className="pt-4">
+            <div className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">
               More Tools
             </div>
-            <div className="space-y-1" data-magicpath-id="62" data-magicpath-path="SidebarNavigation.tsx">
-              {navigationItems.filter(item => !item.isPrimary).map(item => <NavigationItem key={item.id} item={item} isActive={activeSection === item.id} isCollapsed={isCollapsed} accentColor={accentColor} onClick={() => handleItemClick(item.id)} data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-id="63" data-magicpath-path="SidebarNavigation.tsx" />)}
+            <div className="space-y-1">
+              {navigationItems.filter(item => !item.isPrimary).map(item => <NavigationItem key={item.id} item={item} isActive={activeSection === item.id} isCollapsed={isCollapsed} accentColor={accentColor} onClick={() => handleItemClick(item.id)} />)}
             </div>
           </div>}
       </nav>
@@ -269,13 +257,13 @@ const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
       {/* Desktop Sidebar */}
       <motion.aside variants={sidebarVariants} animate={isCollapsed ? 'collapsed' : 'expanded'} className="hidden lg:flex flex-col bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 z-30" style={{
       minHeight: '100vh'
-    }} data-magicpath-id="64" data-magicpath-path="SidebarNavigation.tsx">
-        <SidebarContent data-magicpath-id="65" data-magicpath-path="SidebarNavigation.tsx" />
+    }}>
+        <SidebarContent />
       </motion.aside>
 
       {/* Mobile Sidebar */}
-      <motion.aside variants={mobileSidebarVariants} animate={isMobileMenuOpen ? 'open' : 'closed'} className="fixed inset-y-0 left-0 w-64 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 z-50 lg:hidden" data-magicpath-id="66" data-magicpath-path="SidebarNavigation.tsx">
-        <SidebarContent data-magicpath-id="67" data-magicpath-path="SidebarNavigation.tsx" />
+      <motion.aside variants={mobileSidebarVariants} animate={isMobileMenuOpen ? 'open' : 'closed'} className="fixed inset-y-0 left-0 w-64 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 z-50 lg:hidden">
+        <SidebarContent />
       </motion.aside>
     </>;
 };
@@ -285,7 +273,6 @@ interface NavigationItemProps {
   isCollapsed: boolean;
   accentColor: string;
   onClick: () => void;
-  mpid?: string;
 }
 const NavigationItem: React.FC<NavigationItemProps> = ({
   item,
@@ -300,10 +287,10 @@ const NavigationItem: React.FC<NavigationItemProps> = ({
     scale: 1.02
   }} whileTap={{
     scale: 0.98
-  }} aria-label={item.label} data-magicpath-id="68" data-magicpath-path="SidebarNavigation.tsx">
-      <item.icon size={20} className={`flex-shrink-0 ${isActive ? 'text-white' : 'text-gray-500 dark:text-gray-400 group-hover:text-gray-700 dark:group-hover:text-gray-300'}`} data-magicpath-id="69" data-magicpath-path="SidebarNavigation.tsx" />
+  }} aria-label={item.label}>
+      <item.icon size={20} className={`flex-shrink-0 ${isActive ? 'text-white' : 'text-gray-500 dark:text-gray-400 group-hover:text-gray-700 dark:group-hover:text-gray-300'}`} />
       
-      <AnimatePresence mode="wait" data-magicpath-id="70" data-magicpath-path="SidebarNavigation.tsx">
+      <AnimatePresence mode="wait">
         {!isCollapsed && <motion.span initial={{
         opacity: 0,
         x: -10
@@ -313,7 +300,7 @@ const NavigationItem: React.FC<NavigationItemProps> = ({
       }} exit={{
         opacity: 0,
         x: -10
-      }} className="font-medium truncate" data-magicpath-id="71" data-magicpath-path="SidebarNavigation.tsx">
+      }} className="font-medium truncate">
             {item.label}
           </motion.span>}
       </AnimatePresence>
