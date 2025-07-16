@@ -84,7 +84,7 @@ const AnalyticsDashboard: React.FC<{
     color: '#00B99A',
     description: 'Unique accounts reached',
     trend: [120, 132, 145, 158, 172, 189, 205, 224, 240],
-    mpid: "6659ca32-a6ee-4b36-ad8e-b59a249c6c39"
+    mpid: "71fb5315-45bf-40c3-a2d4-9a48f882e4de"
   }, {
     title: 'Engagement Rate',
     value: '6.8%',
@@ -94,7 +94,7 @@ const AnalyticsDashboard: React.FC<{
     color: '#8B7FFF',
     description: 'Average engagement across platforms',
     trend: [4.2, 4.5, 4.8, 5.1, 5.6, 6.0, 6.3, 6.5, 6.8],
-    mpid: "abd142a5-460c-4e43-97a1-ae7ec692d55b"
+    mpid: "622bf6ed-b634-43bb-b46b-28918f27f9c5"
   }, {
     title: 'Follower Growth',
     value: '+3,247',
@@ -104,7 +104,7 @@ const AnalyticsDashboard: React.FC<{
     color: '#FE8363',
     description: 'New followers this period',
     trend: [2100, 2250, 2400, 2650, 2800, 2950, 3100, 3200, 3247],
-    mpid: "5091819c-71c1-4142-a9ca-a2ed736354dd"
+    mpid: "b7a3fcf0-9090-450d-b0d1-dd111174e16d"
   }, {
     title: 'Content Performance',
     value: '94.2',
@@ -114,7 +114,7 @@ const AnalyticsDashboard: React.FC<{
     color: '#0D9488',
     description: 'Average performance score',
     trend: [92, 93, 94, 95, 96, 95, 94, 94, 94.2],
-    mpid: "f1bb35d7-9e34-4ba0-ace3-a8fdec4decaa"
+    mpid: "76800052-0191-4fa9-ba3f-67e502bcede0"
   }, {
     title: 'Click-Through Rate',
     value: '3.4%',
@@ -124,7 +124,7 @@ const AnalyticsDashboard: React.FC<{
     color: '#F59E0B',
     description: 'Link clicks per impression',
     trend: [2.1, 2.3, 2.6, 2.8, 3.0, 3.1, 3.2, 3.3, 3.4],
-    mpid: "32100723-5d06-43f1-be0f-ad5e07750acf"
+    mpid: "68da4f24-c3cc-4cbb-be6b-21d21449ab6b"
   }, {
     title: 'Share Rate',
     value: '1.9%',
@@ -134,7 +134,7 @@ const AnalyticsDashboard: React.FC<{
     color: '#6366F1',
     description: 'Content sharing frequency',
     trend: [1.8, 1.8, 1.9, 1.9, 1.9, 1.9, 1.9, 1.9, 1.9],
-    mpid: "8d586850-393c-494d-b3c5-f6561e7ccb27"
+    mpid: "e081decb-dedf-4cc0-bd7f-81b4859d7a5c"
   }] as any[];
 
   // Enhanced engagement data with more granular time periods
@@ -146,7 +146,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 245,
     comments: 156,
     likes: 3200,
-    mpid: "2d0c9d43-5a15-45f5-9827-d5f23f79f994"
+    mpid: "422f446d-7896-4018-8831-6dc89678fa87"
   }, {
     name: 'Tue',
     engagement: 3800,
@@ -155,7 +155,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 198,
     comments: 134,
     likes: 2900,
-    mpid: "a50f072a-d5a0-4392-b378-8571fd2b9710"
+    mpid: "c5df9a55-892b-4856-b0e4-172b7ec20de5"
   }, {
     name: 'Wed',
     engagement: 5200,
@@ -164,7 +164,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 320,
     comments: 210,
     likes: 4100,
-    mpid: "db6dced6-e967-4e66-a195-79e4ce4d0ae5"
+    mpid: "eea666f8-5618-46cc-8df6-2ee0d9468aab"
   }, {
     name: 'Thu',
     engagement: 4600,
@@ -173,7 +173,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 275,
     comments: 178,
     likes: 3600,
-    mpid: "d34f940e-4d75-4640-961d-7fb00d5b21dd"
+    mpid: "980046d3-715f-4b68-8ec8-d0aa832ac883"
   }, {
     name: 'Fri',
     engagement: 6800,
@@ -182,7 +182,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 410,
     comments: 285,
     likes: 5200,
-    mpid: "38723087-3ae3-46a6-aff8-fad49661a4c6"
+    mpid: "34eae2e6-c6e5-48c6-b28b-42668196cbe9"
   }, {
     name: 'Sat',
     engagement: 7200,
@@ -191,7 +191,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 485,
     comments: 320,
     likes: 5800,
-    mpid: "7dc2d33f-0ed2-4679-8e65-a2206466a80d"
+    mpid: "cd35d0d5-0d55-4eac-b4b8-dc1bc4716c34"
   }, {
     name: 'Sun',
     engagement: 5900,
@@ -200,7 +200,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 365,
     comments: 245,
     likes: 4500,
-    mpid: "e21e3803-a72a-437c-ac41-0e61fd0409b7"
+    mpid: "e7ede698-22b8-41c0-bbd2-03340d2a0f38"
   }] as any[];
 
   // Platform performance with detailed metrics and real social media logos
@@ -215,19 +215,19 @@ const AnalyticsDashboard: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="10" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" data-magicpath-id="11" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "198e5203-5a66-4116-9607-a3513bca63c6"
+    mpid: "204f2132-2b54-449d-af31-3ee6aa92b55e"
   }, {
-    name: 'Twitter',
+    name: 'X (Twitter)',
     followers: 23800,
     engagement: 4.8,
     reach: 520000,
     posts: 45,
-    color: '#1DA1F2',
+    color: '#000000',
     growth: '+8.3%',
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="12" data-magicpath-path="DashboardContentRouter.tsx">
-          <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" data-magicpath-id="13" data-magicpath-path="DashboardContentRouter.tsx" />
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" data-magicpath-id="13" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "0a2f993a-34c0-48b7-85b5-4667530ed030"
+    mpid: "d88a571c-511e-4f25-8587-96aba86e6687"
   }, {
     name: 'LinkedIn',
     followers: 18500,
@@ -239,19 +239,19 @@ const AnalyticsDashboard: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="14" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" data-magicpath-id="15" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "ce35a4c9-9ccb-4606-beb2-1b4cdb8c3cd1"
+    mpid: "350157e0-c4ea-4db1-b11f-b78a58ee247f"
   }, {
     name: 'TikTok',
     followers: 67300,
     engagement: 9.4,
     reach: 1200000,
     posts: 22,
-    color: '#000000',
+    color: '#FF0050',
     growth: '+28.7%',
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="16" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" data-magicpath-id="17" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "6b5f377e-88f6-4bcf-a033-07f988204a9a"
+    mpid: "1165233d-17c0-4221-b8d5-8711f435a250"
   }, {
     name: 'YouTube',
     followers: 12400,
@@ -263,7 +263,7 @@ const AnalyticsDashboard: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="18" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" data-magicpath-id="19" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "3091f380-8400-4c08-a184-73603f933b75"
+    mpid: "995597ba-282b-4e3c-b496-e8bdbf8a6cb9"
   }] as any[];
 
   // Audience demographics data
@@ -271,27 +271,27 @@ const AnalyticsDashboard: React.FC<{
     age: '18-24',
     percentage: 28,
     color: '#8B7FFF',
-    mpid: "9f7466bf-588e-45c4-a1a4-0c1ba6b165a5"
+    mpid: "9fd15ca2-790b-4d34-99a3-9339b2320d98"
   }, {
     age: '25-34',
     percentage: 35,
     color: '#00B99A',
-    mpid: "5f363ea0-315a-4f2d-9d9e-bf3c1a68b813"
+    mpid: "d90b45b7-df3e-489e-ad4d-86e17f24359f"
   }, {
     age: '35-44',
     percentage: 22,
     color: '#FE8363',
-    mpid: "b5cc307d-ec78-4fc4-bb6d-e8aa490fb166"
+    mpid: "718b3adf-cb90-4402-8b19-698ca94e5d8c"
   }, {
     age: '45-54',
     percentage: 12,
     color: '#F59E0B',
-    mpid: "6b83a11b-34d2-49cb-a40f-64369fff59de"
+    mpid: "b5b47411-eff6-497b-b270-373865b200d3"
   }, {
     age: '55+',
     percentage: 3,
     color: '#6366F1',
-    mpid: "72667a76-d1da-4b8e-879b-c891f01ba536"
+    mpid: "02cc8765-4d50-4eb4-b380-6e041020b715"
   }] as any[];
 
   // Content performance by type
@@ -300,31 +300,31 @@ const AnalyticsDashboard: React.FC<{
     posts: 45,
     engagement: 6.8,
     reach: 450000,
-    mpid: "28a69e3d-e159-40b3-8a60-ff1c53d63ed6"
+    mpid: "74f5fca1-c6ac-4caa-825d-f68e823e8d22"
   }, {
     type: 'Videos',
     posts: 28,
     engagement: 9.2,
     reach: 680000,
-    mpid: "26bdce6a-d7e2-4985-9947-1bbfd4919043"
+    mpid: "1cdeea82-58f7-4a33-af01-17ea218352bf"
   }, {
     type: 'Carousels',
     posts: 18,
     engagement: 7.5,
     reach: 320000,
-    mpid: "d136e1b6-060d-4222-9eb8-dbebd48f8bf1"
+    mpid: "cbfda2b2-67bd-43b4-9476-cefa46c03cd3"
   }, {
     type: 'Stories',
     posts: 62,
     engagement: 4.2,
     reach: 280000,
-    mpid: "57a6594b-a2b0-490e-93cc-2d94937b010a"
+    mpid: "2defd9e3-30d2-4793-a9f5-8e05ed5795d1"
   }, {
     type: 'Reels',
     posts: 15,
     engagement: 12.4,
     reach: 890000,
-    mpid: "18d1d99f-58cb-4cfb-9ebf-815783cb28f9"
+    mpid: "d47eef8c-6664-455f-ab8d-dd5299c93a3a"
   }] as any[];
 
   // Top performing posts
@@ -338,7 +338,7 @@ const AnalyticsDashboard: React.FC<{
     comments: 245,
     shares: 156,
     date: '2 days ago',
-    mpid: "fa863953-d160-4212-8c43-0c62d5b80439"
+    mpid: "7f54e452-5d2c-4f0b-90b6-a752f75eb5f8"
   }, {
     platform: 'TikTok',
     type: 'Video',
@@ -349,7 +349,7 @@ const AnalyticsDashboard: React.FC<{
     comments: 380,
     shares: 290,
     date: '4 days ago',
-    mpid: "42630022-5d15-4720-a312-38ddb180cd5c"
+    mpid: "d9511e7c-03aa-4815-9a08-0606dbf98c19"
   }, {
     platform: 'LinkedIn',
     type: 'Article',
@@ -360,9 +360,9 @@ const AnalyticsDashboard: React.FC<{
     comments: 156,
     shares: 89,
     date: '1 week ago',
-    mpid: "5d59c051-1a9e-49c9-9e99-8e0df7d29eb3"
+    mpid: "f402a7de-fcb5-4848-9586-b554437994c4"
   }, {
-    platform: 'Twitter',
+    platform: 'X (Twitter)',
     type: 'Thread',
     content: 'How to build authentic connections online',
     engagement: 6.7,
@@ -371,7 +371,7 @@ const AnalyticsDashboard: React.FC<{
     comments: 95,
     shares: 145,
     date: '3 days ago',
-    mpid: "941c52bf-842e-4e6c-8980-d650807fe469"
+    mpid: "86b8347f-7c9a-478b-995f-4b765d00eabc"
   }] as any[];
   const getChangeIcon = (changeType: string) => {
     switch (changeType) {
@@ -407,15 +407,15 @@ const AnalyticsDashboard: React.FC<{
             {[{
             label: '7D',
             value: '7d',
-            mpid: "ea425e98-5864-4629-8014-c49bfc383b4a"
+            mpid: "d08749f0-146e-439e-bb2a-617254575077"
           }, {
             label: '30D',
             value: '30d',
-            mpid: "78c9480d-6207-47b3-812c-9580430873b5"
+            mpid: "4bcd21ae-a441-405d-b29e-c2f6761c0fc9"
           }, {
             label: '90D',
             value: '90d',
-            mpid: "99ce6b6e-fd9f-443c-a89b-009ac698e2bb"
+            mpid: "e526e826-a54b-4fa4-ac05-86f6e822ba06"
           }].map(range => <button key={range.value} onClick={() => setTimeRange(range.value)} className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${timeRange === range.value ? 'text-white' : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'}`} style={{
             backgroundColor: timeRange === range.value ? accentColor : 'transparent'
           }} data-magicpath-uuid={(range as any)["mpid"] ?? "unsafe"} data-magicpath-field="label:unknown" data-magicpath-id="30" data-magicpath-path="DashboardContentRouter.tsx">
@@ -454,23 +454,23 @@ const AnalyticsDashboard: React.FC<{
               }} data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-id="42" data-magicpath-path="DashboardContentRouter.tsx" />
                 </div>
                 <div data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-id="43" data-magicpath-path="DashboardContentRouter.tsx">
-                  <h3 className="text-sm font-medium text-gray-600 dark:text-gray-400" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:string" data-magicpath-id="44" data-magicpath-path="DashboardContentRouter.tsx">
+                  <h3 className="text-sm font-medium text-gray-600 dark:text-gray-400" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="44" data-magicpath-path="DashboardContentRouter.tsx">
                     {metric.title}
                   </h3>
-                  <p className="text-2xl font-bold text-gray-900 dark:text-white mt-1" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="value:string" data-magicpath-id="45" data-magicpath-path="DashboardContentRouter.tsx">
+                  <p className="text-2xl font-bold text-gray-900 dark:text-white mt-1" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="value:unknown" data-magicpath-id="45" data-magicpath-path="DashboardContentRouter.tsx">
                     {metric.value}
                   </p>
                 </div>
               </div>
-              <div className="flex items-center space-x-1" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="changeType:string" data-magicpath-id="46" data-magicpath-path="DashboardContentRouter.tsx">
+              <div className="flex items-center space-x-1" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="changeType:unknown" data-magicpath-id="46" data-magicpath-path="DashboardContentRouter.tsx">
                 {getChangeIcon(metric.changeType)}
-                <span className={`text-sm font-medium ${getChangeColor(metric.changeType)}`} data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="change:string" data-magicpath-id="47" data-magicpath-path="DashboardContentRouter.tsx">
+                <span className={`text-sm font-medium ${getChangeColor(metric.changeType)}`} data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="change:unknown" data-magicpath-id="47" data-magicpath-path="DashboardContentRouter.tsx">
                   {metric.change}
                 </span>
               </div>
             </div>
             
-            <p className="text-xs text-gray-500 dark:text-gray-400 mb-3" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:string" data-magicpath-id="48" data-magicpath-path="DashboardContentRouter.tsx">
+            <p className="text-xs text-gray-500 dark:text-gray-400 mb-3" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:unknown" data-magicpath-id="48" data-magicpath-path="DashboardContentRouter.tsx">
               {metric.description}
             </p>
             
@@ -563,11 +563,11 @@ const AnalyticsDashboard: React.FC<{
                 <div className="flex items-center space-x-4" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="78" data-magicpath-path="DashboardContentRouter.tsx">
                   <div className="w-12 h-12 rounded-lg flex items-center justify-center text-white" style={{
                 backgroundColor: platform.color
-              }} data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:unknwon" data-magicpath-id="79" data-magicpath-path="DashboardContentRouter.tsx">
+              }} data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:unknown" data-magicpath-id="79" data-magicpath-path="DashboardContentRouter.tsx">
                     {platform.logo}
                   </div>
                   <div data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="80" data-magicpath-path="DashboardContentRouter.tsx">
-                    <h4 className="font-semibold text-gray-900 dark:text-white" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:string" data-magicpath-id="81" data-magicpath-path="DashboardContentRouter.tsx">
+                    <h4 className="font-semibold text-gray-900 dark:text-white" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="81" data-magicpath-path="DashboardContentRouter.tsx">
                       {platform.name}
                     </h4>
                     <p className="text-sm text-gray-500 dark:text-gray-400" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="82" data-magicpath-path="DashboardContentRouter.tsx">
@@ -577,14 +577,14 @@ const AnalyticsDashboard: React.FC<{
                 </div>
                 <div className="text-right" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="83" data-magicpath-path="DashboardContentRouter.tsx">
                   <div className="flex items-center space-x-2" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="84" data-magicpath-path="DashboardContentRouter.tsx">
-                    <span className="text-sm font-medium text-gray-900 dark:text-white" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="engagement:number" data-magicpath-id="85" data-magicpath-path="DashboardContentRouter.tsx">
+                    <span className="text-sm font-medium text-gray-900 dark:text-white" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="engagement:unknown" data-magicpath-id="85" data-magicpath-path="DashboardContentRouter.tsx">
                       {platform.engagement}%
                     </span>
-                    <span className="text-xs text-green-600 dark:text-green-400" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="growth:string" data-magicpath-id="86" data-magicpath-path="DashboardContentRouter.tsx">
+                    <span className="text-xs text-green-600 dark:text-green-400" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="growth:unknown" data-magicpath-id="86" data-magicpath-path="DashboardContentRouter.tsx">
                       {platform.growth}
                     </span>
                   </div>
-                  <p className="text-xs text-gray-500 dark:text-gray-400" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="posts:number" data-magicpath-id="87" data-magicpath-path="DashboardContentRouter.tsx">
+                  <p className="text-xs text-gray-500 dark:text-gray-400" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="posts:unknown" data-magicpath-id="87" data-magicpath-path="DashboardContentRouter.tsx">
                     {platform.posts} posts
                   </p>
                 </div>
@@ -637,15 +637,15 @@ const AnalyticsDashboard: React.FC<{
           <div className="space-y-4" data-magicpath-id="98" data-magicpath-path="DashboardContentRouter.tsx">
             {contentTypeData.map((content, index) => <div key={content.type} className="flex items-center justify-between" data-magicpath-uuid={(content as any)["mpid"] ?? "unsafe"} data-magicpath-id="99" data-magicpath-path="DashboardContentRouter.tsx">
                 <div data-magicpath-uuid={(content as any)["mpid"] ?? "unsafe"} data-magicpath-id="100" data-magicpath-path="DashboardContentRouter.tsx">
-                  <p className="font-medium text-gray-900 dark:text-white" data-magicpath-uuid={(content as any)["mpid"] ?? "unsafe"} data-magicpath-field="type:string" data-magicpath-id="101" data-magicpath-path="DashboardContentRouter.tsx">
+                  <p className="font-medium text-gray-900 dark:text-white" data-magicpath-uuid={(content as any)["mpid"] ?? "unsafe"} data-magicpath-field="type:unknown" data-magicpath-id="101" data-magicpath-path="DashboardContentRouter.tsx">
                     {content.type}
                   </p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400" data-magicpath-uuid={(content as any)["mpid"] ?? "unsafe"} data-magicpath-field="posts:number" data-magicpath-id="102" data-magicpath-path="DashboardContentRouter.tsx">
+                  <p className="text-sm text-gray-500 dark:text-gray-400" data-magicpath-uuid={(content as any)["mpid"] ?? "unsafe"} data-magicpath-field="posts:unknown" data-magicpath-id="102" data-magicpath-path="DashboardContentRouter.tsx">
                     {content.posts} posts
                   </p>
                 </div>
                 <div className="text-right" data-magicpath-uuid={(content as any)["mpid"] ?? "unsafe"} data-magicpath-id="103" data-magicpath-path="DashboardContentRouter.tsx">
-                  <p className="font-semibold text-gray-900 dark:text-white" data-magicpath-uuid={(content as any)["mpid"] ?? "unsafe"} data-magicpath-field="engagement:number" data-magicpath-id="104" data-magicpath-path="DashboardContentRouter.tsx">
+                  <p className="font-semibold text-gray-900 dark:text-white" data-magicpath-uuid={(content as any)["mpid"] ?? "unsafe"} data-magicpath-field="engagement:unknown" data-magicpath-id="104" data-magicpath-path="DashboardContentRouter.tsx">
                     {content.engagement}%
                   </p>
                   <p className="text-xs text-gray-500 dark:text-gray-400" data-magicpath-uuid={(content as any)["mpid"] ?? "unsafe"} data-magicpath-id="105" data-magicpath-path="DashboardContentRouter.tsx">
@@ -686,19 +686,19 @@ const AnalyticsDashboard: React.FC<{
                 }} data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-id="112" data-magicpath-path="DashboardContentRouter.tsx">
                       {post.platform[0]}
                     </div>
-                    <span className="text-xs text-gray-500 dark:text-gray-400" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="type:string" data-magicpath-id="113" data-magicpath-path="DashboardContentRouter.tsx">
+                    <span className="text-xs text-gray-500 dark:text-gray-400" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="type:unknown" data-magicpath-id="113" data-magicpath-path="DashboardContentRouter.tsx">
                       {post.type}
                     </span>
                   </div>
-                  <span className="text-xs text-gray-500 dark:text-gray-400" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="date:string" data-magicpath-id="114" data-magicpath-path="DashboardContentRouter.tsx">
+                  <span className="text-xs text-gray-500 dark:text-gray-400" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="date:unknown" data-magicpath-id="114" data-magicpath-path="DashboardContentRouter.tsx">
                     {post.date}
                   </span>
                 </div>
-                <p className="text-sm font-medium text-gray-900 dark:text-white mb-2" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="content:string" data-magicpath-id="115" data-magicpath-path="DashboardContentRouter.tsx">
+                <p className="text-sm font-medium text-gray-900 dark:text-white mb-2" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="content:unknown" data-magicpath-id="115" data-magicpath-path="DashboardContentRouter.tsx">
                   {post.content}
                 </p>
                 <div className="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-id="116" data-magicpath-path="DashboardContentRouter.tsx">
-                  <span data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="engagement:number" data-magicpath-id="117" data-magicpath-path="DashboardContentRouter.tsx">{post.engagement}% engagement</span>
+                  <span data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="engagement:unknown" data-magicpath-id="117" data-magicpath-path="DashboardContentRouter.tsx">{post.engagement}% engagement</span>
                   <span data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-id="118" data-magicpath-path="DashboardContentRouter.tsx">{(post.reach / 1000).toFixed(0)}K reach</span>
                 </div>
               </motion.div>)}
@@ -722,92 +722,92 @@ const HomeDashboard: React.FC<{
     change: '+12%',
     icon: MessageSquare,
     color: '#00B99A',
-    mpid: "00d59fc3-a158-4cd4-b3d5-0a00a3589839"
+    mpid: "8b660d2f-dd95-4fa1-bf75-f6f589c95aad"
   }, {
     title: 'Engagement Rate',
     value: '4.8%',
     change: '+0.3%',
     icon: Heart,
     color: '#8B7FFF',
-    mpid: "03e93b02-831b-409f-9c2a-4b96e5d9275d"
+    mpid: "c8b01f8b-b46a-4a37-bb20-21c8a8e4b2f0"
   }, {
     title: 'Followers',
     value: '23.5K',
     change: '+5.2%',
     icon: Users,
     color: '#FE8363',
-    mpid: "19343ee7-2dbe-444a-8db5-36a05585a118"
+    mpid: "d468cfcf-b86a-4065-b605-ca905edb03da"
   }, {
     title: 'Reach',
     value: '156K',
     change: '+18%',
     icon: Eye,
     color: '#0D9488',
-    mpid: "527cfadb-52c5-415a-a7d1-32487ebbaedd"
+    mpid: "73a9a0e5-c5a0-4cc7-80c7-4ace3d3cd84b"
   }] as any[];
   const weeklyEngagementData = [{
     name: 'Mon',
     posts: 12,
     engagement: 450,
     reach: 2400,
-    mpid: "a9e29928-e50f-43db-91b3-7314a6b9172a"
+    mpid: "a5293b99-c3e5-4e0f-abb6-2c556df8906c"
   }, {
     name: 'Tue',
     posts: 8,
     engagement: 380,
     reach: 1800,
-    mpid: "e5d7d0d5-838d-4f86-ba61-8e69e98bef4c"
+    mpid: "1b480282-7a80-4939-ac3f-ed1f69dea015"
   }, {
     name: 'Wed',
     posts: 15,
     engagement: 620,
     reach: 3200,
-    mpid: "9a861938-5548-405d-8276-328d2d76a66f"
+    mpid: "bfbdae90-e68a-45a3-ad60-2c0ad5cd5c3e"
   }, {
     name: 'Thu',
     posts: 10,
     engagement: 520,
     reach: 2800,
-    mpid: "c21331d3-fa1b-4c24-a2bf-49e5d98ae742"
+    mpid: "39941b2a-d3b1-4f78-a8d6-c653c911e8c2"
   }, {
     name: 'Fri',
     posts: 18,
     engagement: 780,
     reach: 4100,
-    mpid: "524d38b0-d0ea-4f28-890a-ef9e982bdaf1"
+    mpid: "12dbdee0-b232-4d75-8b0a-10ca277286f1"
   }, {
     name: 'Sat',
     posts: 22,
     engagement: 890,
     reach: 4800,
-    mpid: "2f3f0745-8967-49ce-bc42-b400d88fae31"
+    mpid: "948d3069-16f7-4a8d-bf76-c2004dc36212"
   }, {
     name: 'Sun',
     posts: 16,
     engagement: 650,
     reach: 3600,
-    mpid: "fcfb5240-c299-4ba9-85a1-b4c25a602bf2"
+    mpid: "1bcda8ba-d8a7-461c-b55e-3ec04afa1327"
   }] as any[];
   const platformData = [{
     name: 'Instagram',
     value: 35,
     color: '#E4405F',
-    mpid: "cc32db4d-fa79-463a-951f-e9410d807229"
+    mpid: "022a2dc5-b49b-4c4c-8d69-d645d2395851"
   }, {
-    name: 'Twitter',
+    name: 'X (Twitter)',
     value: 25,
-    color: '#1DA1F2',
-    mpid: "ba8febf9-1456-4596-b3e3-3af9f7022c36"
+    color: '#000000',
+    mpid: "3e520592-54ad-4e38-8665-04de83416c57"
   }, {
     name: 'LinkedIn',
     value: 20,
     color: '#0077B5',
-    mpid: "ceb32e90-80d5-4f9f-8924-6bb736b27192"
+    mpid: "f3146944-0dc7-473e-b5db-615a1dc5115f"
   }, {
     name: 'TikTok',
     value: 20,
-    color: '#000000',
-    mpid: "0bbd9190-447d-47c3-ad75-9a060268ede2"
+    color: '#FF0050',
+    mpid: "d3f11918-6993-43bf-88cd-49010347f9e5"
   }] as any[];
   const topPostsData = [{
     platform: 'Instagram',
@@ -815,28 +815,28 @@ const HomeDashboard: React.FC<{
     likes: 1247,
     comments: 89,
     shares: 34,
-    mpid: "9016252a-6e48-483c-9252-eac93e56ebd7"
+    mpid: "cdb85721-b995-46d7-a9c2-b5615232e0b6"
   }, {
-    platform: 'Twitter',
+    platform: 'X (Twitter)',
     content: 'Industry insights thread',
     likes: 892,
     comments: 156,
     shares: 78,
-    mpid: "beb79450-6e9e-4a2c-99c2-dafc2cc570a2"
+    mpid: "369e900c-04a1-4371-9cde-07eca911a588"
   }, {
     platform: 'LinkedIn',
     content: 'Professional tips article',
     likes: 634,
     comments: 45,
     shares: 92,
-    mpid: "6e591b66-4056-482c-9ad5-d3acb307ed65"
+    mpid: "f4f2b693-f891-48e2-ab78-54ac398f9b21"
   }, {
     platform: 'TikTok',
     content: 'Behind the scenes video',
     likes: 2156,
     comments: 234,
     shares: 145,
-    mpid: "c3c3ef31-f29e-4f7a-85eb-5566c08520ae"
+    mpid: "8208b676-ae8f-454d-aca0-4be502efc582"
   }] as any[];
   return <div className="space-y-8" data-magicpath-id="119" data-magicpath-path="DashboardContentRouter.tsx">
       {/* Header Section */}
@@ -872,15 +872,15 @@ const HomeDashboard: React.FC<{
       }} className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-lg transition-all duration-300" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-id="129" data-magicpath-path="DashboardContentRouter.tsx">
             <div className="flex items-center justify-between" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-id="130" data-magicpath-path="DashboardContentRouter.tsx">
               <div data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-id="131" data-magicpath-path="DashboardContentRouter.tsx">
-                <p className="text-sm font-medium text-gray-600 dark:text-gray-400" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:string" data-magicpath-id="132" data-magicpath-path="DashboardContentRouter.tsx">
+                <p className="text-sm font-medium text-gray-600 dark:text-gray-400" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="132" data-magicpath-path="DashboardContentRouter.tsx">
                   {metric.title}
                 </p>
-                <p className="text-3xl font-bold text-gray-900 dark:text-white mt-2" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="value:string" data-magicpath-id="133" data-magicpath-path="DashboardContentRouter.tsx">
+                <p className="text-3xl font-bold text-gray-900 dark:text-white mt-2" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="value:unknown" data-magicpath-id="133" data-magicpath-path="DashboardContentRouter.tsx">
                   {metric.value}
                 </p>
                 <div className="flex items-center mt-2" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-id="134" data-magicpath-path="DashboardContentRouter.tsx">
                   <TrendingUp size={14} className="text-green-500 mr-1" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-id="135" data-magicpath-path="DashboardContentRouter.tsx" />
-                  <p className="text-sm text-green-600 dark:text-green-400 font-medium" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="change:string" data-magicpath-id="136" data-magicpath-path="DashboardContentRouter.tsx">
+                  <p className="text-sm text-green-600 dark:text-green-400 font-medium" data-magicpath-uuid={(metric as any)["mpid"] ?? "unsafe"} data-magicpath-field="change:unknown" data-magicpath-id="136" data-magicpath-path="DashboardContentRouter.tsx">
                     {metric.change}
                   </p>
                 </div>
@@ -1003,22 +1003,22 @@ const HomeDashboard: React.FC<{
                     {post.platform[0]}
                   </div>
                   <div data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-id="172" data-magicpath-path="DashboardContentRouter.tsx">
-                    <p className="font-medium text-gray-900 dark:text-white" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="content:string" data-magicpath-id="173" data-magicpath-path="DashboardContentRouter.tsx">{post.content}</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="platform:string" data-magicpath-id="174" data-magicpath-path="DashboardContentRouter.tsx">{post.platform}</p>
+                    <p className="font-medium text-gray-900 dark:text-white" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="content:unknown" data-magicpath-id="173" data-magicpath-path="DashboardContentRouter.tsx">{post.content}</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="platform:unknown" data-magicpath-id="174" data-magicpath-path="DashboardContentRouter.tsx">{post.platform}</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-6 text-sm text-gray-600 dark:text-gray-400" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-id="175" data-magicpath-path="DashboardContentRouter.tsx">
                   <div className="flex items-center space-x-1" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-id="176" data-magicpath-path="DashboardContentRouter.tsx">
                     <Heart size={14} data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-id="177" data-magicpath-path="DashboardContentRouter.tsx" />
-                    <span data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="likes:number" data-magicpath-id="178" data-magicpath-path="DashboardContentRouter.tsx">{post.likes}</span>
+                    <span data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="likes:unknown" data-magicpath-id="178" data-magicpath-path="DashboardContentRouter.tsx">{post.likes}</span>
                   </div>
                   <div className="flex items-center space-x-1" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-id="179" data-magicpath-path="DashboardContentRouter.tsx">
                     <MessageSquare size={14} data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-id="180" data-magicpath-path="DashboardContentRouter.tsx" />
-                    <span data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="comments:number" data-magicpath-id="181" data-magicpath-path="DashboardContentRouter.tsx">{post.comments}</span>
+                    <span data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="comments:unknown" data-magicpath-id="181" data-magicpath-path="DashboardContentRouter.tsx">{post.comments}</span>
                   </div>
                   <div className="flex items-center space-x-1" data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-id="182" data-magicpath-path="DashboardContentRouter.tsx">
                     <Share2 size={14} data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-id="183" data-magicpath-path="DashboardContentRouter.tsx" />
-                    <span data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="shares:number" data-magicpath-id="184" data-magicpath-path="DashboardContentRouter.tsx">{post.shares}</span>
+                    <span data-magicpath-uuid={(post as any)["mpid"] ?? "unsafe"} data-magicpath-field="shares:unknown" data-magicpath-id="184" data-magicpath-path="DashboardContentRouter.tsx">{post.shares}</span>
                   </div>
                 </div>
               </motion.div>)}
@@ -1043,22 +1043,22 @@ const HomeDashboard: React.FC<{
               label: 'Schedule Post',
               icon: Calendar,
               color: '#00B99A',
-              mpid: "f0c6cd19-958d-4da5-8b3a-8828a71e29ab"
+              mpid: "9cbe59e7-b9ae-4fce-8707-bd39bed48db5"
             }, {
               label: 'Generate Content',
               icon: Zap,
               color: '#8B7FFF',
-              mpid: "c3ce6f8d-5baa-4cdd-9327-3cad12f023ba"
+              mpid: "34eaec5f-a7c5-49c1-9a96-0ca5c79a5b5a"
             }, {
               label: 'View Analytics',
               icon: BarChart3,
               color: '#FE8363',
-              mpid: "4ed14248-a938-4b19-ae3a-03f957124007"
+              mpid: "41b1a828-5eda-46e1-bf78-889b5256c3a2"
             }, {
               label: 'Manage Connections',
               icon: Globe,
               color: '#0D9488',
-              mpid: "1bf19b50-6e08-499c-9ed2-97d1d35864ea"
+              mpid: "55c05377-63b8-4f29-926c-14edbff0903e"
             }].map((action, index) => <motion.button key={action.label} whileHover={{
               scale: 1.05
             }} whileTap={{
@@ -1082,22 +1082,22 @@ const HomeDashboard: React.FC<{
               action: 'Posted to Instagram',
               time: '2 hours ago',
               status: 'success',
-              mpid: "9f0d693b-012c-410d-96ab-cf82253987fe"
+              mpid: "fc740606-6663-4fcc-8986-4050d118a7cb"
             }, {
               action: 'Scheduled LinkedIn post',
               time: '4 hours ago',
               status: 'pending',
-              mpid: "696ec365-19c2-4d10-a500-f1ec0a636ee4"
+              mpid: "ac937718-9046-4ee8-a53b-7f6b52cb4454"
             }, {
               action: 'Generated AI content',
               time: '6 hours ago',
               status: 'success',
-              mpid: "71e48567-e1ce-42d1-ad02-986e86112efb"
+              mpid: "ea76d084-d707-476b-99da-629a14873145"
             }, {
               action: 'Updated profile settings',
               time: '1 day ago',
               status: 'success',
-              mpid: "b53a6837-b06d-4cbe-b675-ee5b834634c9"
+              mpid: "b8f555c1-7f66-4c76-b9ff-7764780f6191"
             }].map((activity, index) => <motion.div key={index} initial={{
               opacity: 0,
               x: -10
@@ -1177,7 +1177,7 @@ const ContentCreator: React.FC<{
               '--tw-ring-color': accentColor
             } as React.CSSProperties} data-magicpath-id="215" data-magicpath-path="DashboardContentRouter.tsx">
                 <option value="instagram" data-magicpath-id="216" data-magicpath-path="DashboardContentRouter.tsx">Instagram</option>
-                <option value="twitter" data-magicpath-id="217" data-magicpath-path="DashboardContentRouter.tsx">Twitter</option>
+                <option value="twitter" data-magicpath-id="217" data-magicpath-path="DashboardContentRouter.tsx">X (Twitter)</option>
                 <option value="linkedin" data-magicpath-id="218" data-magicpath-path="DashboardContentRouter.tsx">LinkedIn</option>
                 <option value="facebook" data-magicpath-id="219" data-magicpath-path="DashboardContentRouter.tsx">Facebook</option>
               </select>
@@ -1357,15 +1357,15 @@ const Preferences: React.FC<{
             {[{
             label: 'Email notifications',
             enabled: true,
-            mpid: "f337bd5d-c72d-48df-b371-9bff52a8985a"
+            mpid: "d0062d64-2c21-4929-9283-1758e8a821fd"
           }, {
             label: 'Push notifications',
             enabled: false,
-            mpid: "8bb3466c-1f59-40da-b995-11bb72d9a921"
+            mpid: "016353e2-3d1c-44b4-b3c6-2beb6911cfe9"
           }, {
             label: 'Weekly reports',
             enabled: true,
-            mpid: "3552f6c1-c733-4ef0-b4fb-b3b154d1da42"
+            mpid: "0e843c21-e91c-4fb7-a7fa-4487304a1ede"
           }].map((setting, index) => <div key={index} className="flex items-center justify-between" data-magicpath-uuid={(setting as any)["mpid"] ?? "unsafe"} data-magicpath-id="278" data-magicpath-path="DashboardContentRouter.tsx">
                 <span className="text-sm text-gray-700 dark:text-gray-300" data-magicpath-uuid={(setting as any)["mpid"] ?? "unsafe"} data-magicpath-field="label:unknown" data-magicpath-id="279" data-magicpath-path="DashboardContentRouter.tsx">{setting.label}</span>
                 <div className={`w-12 h-6 rounded-full p-1 transition-colors ${setting.enabled ? 'bg-green-500' : 'bg-gray-300 dark:bg-gray-600'}`} data-magicpath-uuid={(setting as any)["mpid"] ?? "unsafe"} data-magicpath-id="280" data-magicpath-path="DashboardContentRouter.tsx">
@@ -1394,16 +1394,16 @@ const Connections: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="282" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" data-magicpath-id="283" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "10b0b66c-c56b-4b37-a150-38463aabc157"
+    mpid: "a023b510-7801-4af2-bed8-257d171f0f48"
   }, {
-    name: 'Twitter',
+    name: 'X (Twitter)',
     connected: true,
-    color: '#1DA1F2',
+    color: '#000000',
     followers: '8.2K',
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="284" data-magicpath-path="DashboardContentRouter.tsx">
-          <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" data-magicpath-id="285" data-magicpath-path="DashboardContentRouter.tsx" />
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" data-magicpath-id="285" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "37f905d1-e64b-4654-a18c-e501f0e9e789"
+    mpid: "678bcee1-73a4-43ee-9bf6-8b17730400b4"
   }, {
     name: 'LinkedIn',
     connected: false,
@@ -1412,7 +1412,7 @@ const Connections: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="286" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" data-magicpath-id="287" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "92a8d001-4559-481c-85d8-eaa5adad9bc1"
+    mpid: "878dc333-46ae-4206-a937-ef80bbc2d1ca"
   }, {
     name: 'Facebook',
     connected: true,
@@ -1421,16 +1421,16 @@ const Connections: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="288" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" data-magicpath-id="289" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "9dd13dca-c6cf-42b9-b7f6-3eb87f993213"
+    mpid: "3dbffe51-21a3-4861-b0cb-05f46ca43583"
   }, {
     name: 'TikTok',
     connected: false,
-    color: '#000000',
+    color: '#FF0050',
     followers: '0',
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="290" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" data-magicpath-id="291" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "f9c13b2b-5d12-4e98-a1ff-c926a07fb064"
+    mpid: "1c917d32-5757-45cc-b832-0efeb260653b"
   }, {
     name: 'YouTube',
     connected: false,
@@ -1439,17 +1439,45 @@ const Connections: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="292" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" data-magicpath-id="293" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "2062d370-bfd0-4a3e-98cb-b8ae59c5ca87"
+    mpid: "17124c2d-9732-4d09-bf71-2164c1c73c0c"
+  }, {
+    name: 'Threads',
+    connected: false,
+    color: '#000000',
+    followers: '0',
+    logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="294" data-magicpath-path="DashboardContentRouter.tsx">
+          <path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.5 12.01 1.5 8.434 2.35 5.58 3.995 3.529 5.845 1.225 8.598.044 12.179.02h.014c3.581.024 6.334 1.205 8.184 3.509C21.65 5.58 22.5 8.434 22.5 12.01c0 3.576-.85 6.43-2.495 8.481-1.85 2.304-4.603 3.485-8.184 3.509zM12.186 2.574c-2.815.02-4.962.93-6.38 2.703C4.364 6.954 3.75 9.28 3.75 12.01s.615 5.056 2.056 6.733c1.418 1.773 3.565 2.683 6.38 2.703 2.815-.02 4.962-.93 6.38-2.703 1.441-1.677 2.056-4.003 2.056-6.733s-.615-5.056-2.056-6.733c-1.418-1.773-3.565-2.683-6.38-2.703z" data-magicpath-id="295" data-magicpath-path="DashboardContentRouter.tsx" />
+          <path d="M17.74 8.847c0-1.492-.585-2.909-1.648-3.99C14.929 3.776 13.53 3.18 12.05 3.18c-1.48 0-2.879.596-4.042 1.677-1.063 1.081-1.648 2.498-1.648 3.99 0 .414.336.75.75.75s.75-.336.75-.75c0-1.078.423-2.1 1.19-2.878.767-.778 1.777-1.209 2.84-1.209 1.063 0 2.073.431 2.84 1.209.767.778 1.19 1.8 1.19 2.878 0 .414.336.75.75.75s.75-.336.75-.75z" data-magicpath-id="296" data-magicpath-path="DashboardContentRouter.tsx" />
+        </svg>,
+    mpid: "a4de4fba-cb63-477e-9e24-c0c7c805a8ff"
+  }, {
+    name: 'Pinterest',
+    connected: false,
+    color: '#E60023',
+    followers: '0',
+    logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="297" data-magicpath-path="DashboardContentRouter.tsx">
+          <path d="M12 0C5.374 0 0 5.372 0 12.017 0 17.075 3.235 21.426 7.751 22.77c-.109-.949-.199-2.403.042-3.441.219-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.888-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.357-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.001 12.001 24.001c6.624 0 11.999-5.373 11.999-12.017C24 5.372 18.626.001 12.001.001z" data-magicpath-id="298" data-magicpath-path="DashboardContentRouter.tsx" />
+        </svg>,
+    mpid: "a86e69a0-b397-4a34-9053-1ad35c78f9da"
+  }, {
+    name: 'Snapchat',
+    connected: false,
+    color: '#FFFC00',
+    followers: '0',
+    logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="299" data-magicpath-path="DashboardContentRouter.tsx">
+          <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.042-3.441.219-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.888-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.357-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.374.213 2.566.402 3.804.402 6.624 0 11.999-5.373 11.999-12.017C24.016 5.367 18.641.001 12.017.001z" data-magicpath-id="300" data-magicpath-path="DashboardContentRouter.tsx" />
+        </svg>,
+    mpid: "e83f9940-1753-48a4-afa5-407788a51105"
   }] as any[];
-  return <div className="space-y-6" data-magicpath-id="294" data-magicpath-path="DashboardContentRouter.tsx">
-      <div data-magicpath-id="295" data-magicpath-path="DashboardContentRouter.tsx">
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-white" data-magicpath-id="296" data-magicpath-path="DashboardContentRouter.tsx">Social Connections</h1>
-        <p className="text-gray-600 dark:text-gray-400 mt-1" data-magicpath-id="297" data-magicpath-path="DashboardContentRouter.tsx">
+  return <div className="space-y-6" data-magicpath-id="301" data-magicpath-path="DashboardContentRouter.tsx">
+      <div data-magicpath-id="302" data-magicpath-path="DashboardContentRouter.tsx">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-white" data-magicpath-id="303" data-magicpath-path="DashboardContentRouter.tsx">Social Connections</h1>
+        <p className="text-gray-600 dark:text-gray-400 mt-1" data-magicpath-id="304" data-magicpath-path="DashboardContentRouter.tsx">
           Manage your connected social media accounts.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-magicpath-id="298" data-magicpath-path="DashboardContentRouter.tsx">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-magicpath-id="305" data-magicpath-path="DashboardContentRouter.tsx">
         {platforms.map((platform, index) => <motion.div key={platform.name} initial={{
         opacity: 0,
         y: 20
@@ -1458,31 +1486,31 @@ const Connections: React.FC<{
         y: 0
       }} transition={{
         delay: index * 0.1
-      }} className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="299" data-magicpath-path="DashboardContentRouter.tsx">
-            <div className="flex items-center justify-between mb-4" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="300" data-magicpath-path="DashboardContentRouter.tsx">
-              <div className="flex items-center space-x-3" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="301" data-magicpath-path="DashboardContentRouter.tsx">
+      }} className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="306" data-magicpath-path="DashboardContentRouter.tsx">
+            <div className="flex items-center justify-between mb-4" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="307" data-magicpath-path="DashboardContentRouter.tsx">
+              <div className="flex items-center space-x-3" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="308" data-magicpath-path="DashboardContentRouter.tsx">
                 <div className="w-12 h-12 rounded-lg flex items-center justify-center text-white" style={{
               backgroundColor: platform.color
-            }} data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:unknwon" data-magicpath-id="302" data-magicpath-path="DashboardContentRouter.tsx">
+            }} data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:unknown" data-magicpath-id="309" data-magicpath-path="DashboardContentRouter.tsx">
                   {platform.logo}
                 </div>
-                <div data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="303" data-magicpath-path="DashboardContentRouter.tsx">
-                  <h3 className="font-semibold text-gray-900 dark:text-white" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:string" data-magicpath-id="304" data-magicpath-path="DashboardContentRouter.tsx">{platform.name}</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="305" data-magicpath-path="DashboardContentRouter.tsx">
+                <div data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="310" data-magicpath-path="DashboardContentRouter.tsx">
+                  <h3 className="font-semibold text-gray-900 dark:text-white" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="311" data-magicpath-path="DashboardContentRouter.tsx">{platform.name}</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="312" data-magicpath-path="DashboardContentRouter.tsx">
                     {platform.connected ? `${platform.followers} followers` : 'Not connected'}
                   </p>
                 </div>
               </div>
-              <div className={`w-3 h-3 rounded-full ${platform.connected ? 'bg-green-500' : 'bg-gray-300 dark:bg-gray-600'}`} data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="306" data-magicpath-path="DashboardContentRouter.tsx" />
+              <div className={`w-3 h-3 rounded-full ${platform.connected ? 'bg-green-500' : 'bg-gray-300 dark:bg-gray-600'}`} data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="313" data-magicpath-path="DashboardContentRouter.tsx" />
             </div>
             
             <motion.button whileHover={{
           scale: 1.02
         }} whileTap={{
           scale: 0.98
-        }} onClick={() => onShowNotification(platform.connected ? 'Disconnect Account' : 'Connect Account', <p data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:string" data-magicpath-id="308" data-magicpath-path="DashboardContentRouter.tsx">{platform.connected ? 'Disconnect' : 'Connect'} your {platform.name} account?</p>)} className={`w-full py-2 px-4 rounded-lg font-medium transition-colors ${platform.connected ? 'bg-red-100 dark:bg-red-900/20 text-red-700 dark:text-red-400 hover:bg-red-200 dark:hover:bg-red-900/30' : 'text-white hover:opacity-90'}`} style={{
+        }} onClick={() => onShowNotification(platform.connected ? 'Disconnect Account' : 'Connect Account', <p data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="315" data-magicpath-path="DashboardContentRouter.tsx">{platform.connected ? 'Disconnect' : 'Connect'} your {platform.name} account?</p>)} className={`w-full py-2 px-4 rounded-lg font-medium transition-colors ${platform.connected ? 'bg-red-100 dark:bg-red-900/20 text-red-700 dark:text-red-400 hover:bg-red-200 dark:hover:bg-red-900/30' : 'text-white hover:opacity-90'}`} style={{
           backgroundColor: platform.connected ? undefined : accentColor
-        }} data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="307" data-magicpath-path="DashboardContentRouter.tsx">
+        }} data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="314" data-magicpath-path="DashboardContentRouter.tsx">
               {platform.connected ? 'Disconnect' : 'Connect'}
             </motion.button>
           </motion.div>)}
@@ -1501,25 +1529,25 @@ const AlertsPage: React.FC<{
     title: 'Post Published',
     message: 'Your Instagram post has been published successfully',
     time: '2 minutes ago',
-    mpid: "13529b68-5a7c-44c0-b054-20918cf22a09"
+    mpid: "e3417ddd-5185-4c0c-85cf-996e64504032"
   }, {
     type: 'warning',
     title: 'Engagement Drop',
     message: 'Your engagement rate has decreased by 15% this week',
     time: '1 hour ago',
-    mpid: "a7ab8f65-67ba-42a3-be81-61cb5d6494d1"
+    mpid: "be8b9bea-8af3-4427-847b-c03e0f4ed619"
   }, {
     type: 'info',
     title: 'Scheduled Post',
     message: 'Your LinkedIn post is scheduled for 3:00 PM today',
     time: '3 hours ago',
-    mpid: "e96e821e-6168-4978-9e2b-bddc7513f54b"
+    mpid: "19166b09-680d-4652-a284-1517a372cf25"
   }, {
     type: 'error',
     title: 'Connection Failed',
-    message: 'Failed to connect to Twitter API. Please check your credentials',
+    message: 'Failed to connect to X (Twitter) API. Please check your credentials',
     time: '5 hours ago',
-    mpid: "3a155309-27c3-49db-849c-3a71275d420b"
+    mpid: "40d112b3-df8e-40cc-b6f7-2d38a0d6f54c"
   }] as any[];
   const getAlertColor = (type: string) => {
     switch (type) {
@@ -1535,15 +1563,15 @@ const AlertsPage: React.FC<{
         return accentColor;
     }
   };
-  return <div className="space-y-6" data-magicpath-id="309" data-magicpath-path="DashboardContentRouter.tsx">
-      <div data-magicpath-id="310" data-magicpath-path="DashboardContentRouter.tsx">
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-white" data-magicpath-id="311" data-magicpath-path="DashboardContentRouter.tsx">Alerts & Notifications</h1>
-        <p className="text-gray-600 dark:text-gray-400 mt-1" data-magicpath-id="312" data-magicpath-path="DashboardContentRouter.tsx">
+  return <div className="space-y-6" data-magicpath-id="316" data-magicpath-path="DashboardContentRouter.tsx">
+      <div data-magicpath-id="317" data-magicpath-path="DashboardContentRouter.tsx">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-white" data-magicpath-id="318" data-magicpath-path="DashboardContentRouter.tsx">Alerts & Notifications</h1>
+        <p className="text-gray-600 dark:text-gray-400 mt-1" data-magicpath-id="319" data-magicpath-path="DashboardContentRouter.tsx">
           Stay updated with your social media activity.
         </p>
       </div>
 
-      <div className="space-y-4" data-magicpath-id="313" data-magicpath-path="DashboardContentRouter.tsx">
+      <div className="space-y-4" data-magicpath-id="320" data-magicpath-path="DashboardContentRouter.tsx">
         {alerts.map((alert, index) => <motion.div key={index} initial={{
         opacity: 0,
         x: -20
@@ -1552,17 +1580,17 @@ const AlertsPage: React.FC<{
         x: 0
       }} transition={{
         delay: index * 0.1
-      }} className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-id="314" data-magicpath-path="DashboardContentRouter.tsx">
-            <div className="flex items-start space-x-4" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-id="315" data-magicpath-path="DashboardContentRouter.tsx">
+      }} className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-id="321" data-magicpath-path="DashboardContentRouter.tsx">
+            <div className="flex items-start space-x-4" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-id="322" data-magicpath-path="DashboardContentRouter.tsx">
               <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{
             backgroundColor: getAlertColor(alert.type)
-          }} data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-id="316" data-magicpath-path="DashboardContentRouter.tsx" />
-              <div className="flex-1" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-id="317" data-magicpath-path="DashboardContentRouter.tsx">
-                <div className="flex items-center justify-between" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-id="318" data-magicpath-path="DashboardContentRouter.tsx">
-                  <h3 className="font-semibold text-gray-900 dark:text-white" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:string" data-magicpath-id="319" data-magicpath-path="DashboardContentRouter.tsx">{alert.title}</h3>
-                  <span className="text-sm text-gray-500 dark:text-gray-400" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-field="time:string" data-magicpath-id="320" data-magicpath-path="DashboardContentRouter.tsx">{alert.time}</span>
+          }} data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-id="323" data-magicpath-path="DashboardContentRouter.tsx" />
+              <div className="flex-1" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-id="324" data-magicpath-path="DashboardContentRouter.tsx">
+                <div className="flex items-center justify-between" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-id="325" data-magicpath-path="DashboardContentRouter.tsx">
+                  <h3 className="font-semibold text-gray-900 dark:text-white" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="326" data-magicpath-path="DashboardContentRouter.tsx">{alert.title}</h3>
+                  <span className="text-sm text-gray-500 dark:text-gray-400" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-field="time:unknown" data-magicpath-id="327" data-magicpath-path="DashboardContentRouter.tsx">{alert.time}</span>
                 </div>
-                <p className="text-gray-600 dark:text-gray-400 mt-1" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-field="message:string" data-magicpath-id="321" data-magicpath-path="DashboardContentRouter.tsx">{alert.message}</p>
+                <p className="text-gray-600 dark:text-gray-400 mt-1" data-magicpath-uuid={(alert as any)["mpid"] ?? "unsafe"} data-magicpath-field="message:unknown" data-magicpath-id="328" data-magicpath-path="DashboardContentRouter.tsx">{alert.message}</p>
               </div>
             </div>
           </motion.div>)}
