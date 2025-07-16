@@ -26,61 +26,61 @@ const navigationItems: NavigationItem[] = [{
   label: 'Dashboard',
   icon: Home,
   isPrimary: true,
-  mpid: "b7e17d63-d89e-4781-9f1b-d3a27f5bb5b2"
+  mpid: "76a80bfb-f697-47ca-9dd3-fc1ca1f0f7dc"
 }, {
   id: 'alerts',
   label: 'Alerts',
   icon: Bell,
   isPrimary: true,
-  mpid: "539598e5-7826-4a5d-97f8-dd110d9bc52c"
+  mpid: "4a32de3e-d550-421f-8eba-afdf4b391e1f"
 }, {
   id: 'content',
   label: 'Content Creator',
   icon: PenTool,
   isPrimary: true,
-  mpid: "02b23b7d-8168-4550-8917-43fd70ca3dfb"
+  mpid: "b54c24b8-5954-466e-a66d-9bd833c7589e"
 }, {
   id: 'planner',
   label: 'Post Planner',
   icon: Calendar,
   isPrimary: true,
-  mpid: "3a4f8d75-b569-4e93-8963-c81ab4bde6d6"
+  mpid: "a12314c3-2c99-4149-9dcd-a78eb1a77b20"
 }, {
   id: 'analytics',
   label: 'Analytics',
   icon: BarChart3,
   isPrimary: true,
-  mpid: "de878ab4-09c9-43f5-8640-f6e178e1d1ae"
+  mpid: "90745ced-f61b-47f7-b557-be0e4da4c738"
 }, {
   id: 'preferences',
   label: 'Preferences',
   icon: Settings,
   isPrimary: true,
-  mpid: "d03b1652-f45b-4b3e-a31b-32ea99ff1e31"
+  mpid: "80472f9e-aaa0-4010-97c2-4308efaa60a3"
 }, {
   id: 'connections',
   label: 'Connections',
   icon: Link,
   isPrimary: true,
-  mpid: "54645742-8a17-400c-bc4a-83df54aaf781"
+  mpid: "c4006770-6dff-466b-aa72-ad5c994c3e42"
 }, {
   id: 'content-hub',
   label: 'Content Hub',
   icon: FolderOpen,
   isPrimary: false,
-  mpid: "4fa87517-939d-4055-948d-3e1c8be30732"
+  mpid: "0efe9717-ddd5-43cf-8588-babeae797f56"
 }, {
   id: 'audience',
   label: 'Audience Analytics',
   icon: Users,
   isPrimary: false,
-  mpid: "b065e0e1-9f98-4266-aa18-6624f6a1fa72"
+  mpid: "0d0fe126-fa87-4816-968b-7b18141baa99"
 }, {
   id: 'hashtags',
   label: 'Hashtag Organizer',
   icon: Hash,
   isPrimary: false,
-  mpid: "b0086d2b-8976-408a-83a9-e503c71f02c2"
+  mpid: "f5d37c81-30dc-4dfc-a18a-3688b953867c"
 }];
 const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
   activeSection,
