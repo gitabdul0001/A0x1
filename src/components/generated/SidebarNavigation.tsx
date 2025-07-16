@@ -232,7 +232,13 @@ const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
                   </g>
                 </svg>
               </div>
-              <h1 className="text-xl font-bold text-gray-900 dark:text-white" data-magicpath-id="52" data-magicpath-path="SidebarNavigation.tsx"><em data-magicpath-id="53" data-magicpath-path="SidebarNavigation.tsx">R</em>eaxo</h1>
+              <h1 className="text-xl font-bold text-gray-900 dark:text-white" data-magicpath-id="52" data-magicpath-path="SidebarNavigation.tsx" style={{
+            paddingLeft: "",
+            paddingRight: "0px",
+            marginLeft: "",
+            marginRight: "",
+            marginBottom: "8px"
+          }}><em data-magicpath-id="53" data-magicpath-path="SidebarNavigation.tsx">R</em>eaxo</h1>
             </motion.div>}
         </AnimatePresence>
         
