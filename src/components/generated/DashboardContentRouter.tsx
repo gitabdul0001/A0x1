@@ -1559,7 +1559,8 @@ const Connections: React.FC<{
             <div className="flex items-center justify-between mb-4" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="393" data-magicpath-path="DashboardContentRouter.tsx">
               <div className="flex items-center space-x-3" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="394" data-magicpath-path="DashboardContentRouter.tsx">
                 <div className="w-12 h-12 rounded-lg flex items-center justify-center text-white" style={{
-              backgroundColor: platform.color
+              backgroundColor: platform.color,
+              background: "rgb(0 0 0 / 0)"
             }} data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:unknwon" data-magicpath-id="395" data-magicpath-path="DashboardContentRouter.tsx">
                   {platform.logo}
                 </div>
