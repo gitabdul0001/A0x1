@@ -141,7 +141,7 @@ const DashboardHeader: React.FC<DashboardHeaderProps> = ({
           }} whileTap={{
             scale: 0.98
           }} aria-label="User menu" data-magicpath-id="30" data-magicpath-path="DashboardHeader.tsx">
-              <img src={user.avatar} alt={`${user.name}'s avatar`} className="w-8 h-8 rounded-full object-cover" data-magicpath-id="31" data-magicpath-path="DashboardHeader.tsx" />
+              <img src="https://storage.googleapis.com/storage.magicpath.ai/user/294643813987811328/assets/91dbfadf-b551-492d-8b04-f22767936c10.jpg" alt={`${user.name}'s avatar`} className="w-8 h-8 rounded-full object-cover" data-magicpath-id="31" data-magicpath-path="DashboardHeader.tsx" />
               <div className="hidden sm:block text-left" data-magicpath-id="32" data-magicpath-path="DashboardHeader.tsx">
                 <p className="text-sm font-medium text-gray-900 dark:text-white" data-magicpath-id="33" data-magicpath-path="DashboardHeader.tsx">{user.name}</p>
                 <p className="text-xs text-gray-500 dark:text-gray-400" data-magicpath-id="34" data-magicpath-path="DashboardHeader.tsx">{user.role}</p>
