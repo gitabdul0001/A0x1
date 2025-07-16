@@ -26,61 +26,61 @@ const navigationItems: NavigationItem[] = [{
   label: 'Dashboard',
   icon: Home,
   isPrimary: true,
-  mpid: "2936940b-b4e0-433c-ae3a-a713bef1457e"
+  mpid: "ed567f88-4f6c-4be8-865f-77c7cbbfb265"
 }, {
   id: 'alerts',
   label: 'Alerts',
   icon: Bell,
   isPrimary: true,
-  mpid: "0865cb2a-3bc4-40d3-a22a-fadf43744ac6"
+  mpid: "8d17d8c4-1815-4feb-bc54-ceebff76b06b"
 }, {
   id: 'content',
   label: 'Content Creator',
   icon: PenTool,
   isPrimary: true,
-  mpid: "c09178f9-9012-4adc-9327-f0761303cb65"
+  mpid: "0350a923-2ff7-494e-92b9-d0fcd47d00a4"
 }, {
   id: 'planner',
   label: 'Post Planner',
   icon: Calendar,
   isPrimary: true,
-  mpid: "839c2f02-a6a4-430e-8bae-dd9f4242819d"
+  mpid: "dbb07c95-ca4c-4055-a0ea-2962bbb9d06f"
 }, {
   id: 'analytics',
   label: 'Analytics',
   icon: BarChart3,
   isPrimary: true,
-  mpid: "4c7c4f0a-62be-411e-90d0-db78caf9a8ac"
+  mpid: "75035d43-4f20-43e6-b795-ccb2dc7febf8"
 }, {
   id: 'preferences',
   label: 'Preferences',
   icon: Settings,
   isPrimary: true,
-  mpid: "626c513e-975c-4968-9a3c-d27b7de402b4"
+  mpid: "e9cf3962-8ce9-4dd9-827c-efde0b78bdb0"
 }, {
   id: 'connections',
   label: 'Connections',
   icon: Link,
   isPrimary: true,
-  mpid: "2af21926-0170-4ef9-b512-70b42f729c8e"
+  mpid: "7ea5df38-6fac-4713-84c8-4bff6ae0d85d"
 }, {
   id: 'content-hub',
   label: 'Content Hub',
   icon: FolderOpen,
   isPrimary: false,
-  mpid: "ba880cb1-ba29-471d-becf-ca2c3a6ca709"
+  mpid: "a2e6bf58-30cc-4d11-a23d-a7c656a15f44"
 }, {
   id: 'audience',
   label: 'Audience Analytics',
   icon: Users,
   isPrimary: false,
-  mpid: "5998c4aa-c2e1-464e-80e9-1bb505b215f9"
+  mpid: "446b57ea-9290-42ee-9d77-eb8313801e47"
 }, {
   id: 'hashtags',
   label: 'Hashtag Organizer',
   icon: Hash,
   isPrimary: false,
-  mpid: "a9eedd42-9887-4941-9330-1052240eb2b3"
+  mpid: "97e0048f-06b3-4312-b73f-b382fe1d5f10"
 }];
 const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
   activeSection,
@@ -232,13 +232,13 @@ const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
                   </g>
                 </svg>
               </div>
-              <h1 className="text-xl font-bold text-gray-900 dark:text-white" data-magicpath-id="52" data-magicpath-path="SidebarNavigation.tsx" style={{
+              <h1 className="text-xl font-bold text-gray-900 dark:text-white" style={{
             paddingLeft: "",
             paddingRight: "0px",
             marginLeft: "",
             marginRight: "",
             marginBottom: "8px"
-          }}><em data-magicpath-id="53" data-magicpath-path="SidebarNavigation.tsx">R</em>eaxo</h1>
+          }} data-magicpath-id="52" data-magicpath-path="SidebarNavigation.tsx"><em data-magicpath-id="53" data-magicpath-path="SidebarNavigation.tsx">R</em>eaxo</h1>
             </motion.div>}
         </AnimatePresence>
         

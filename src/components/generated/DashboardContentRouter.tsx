@@ -84,7 +84,7 @@ const AnalyticsDashboard: React.FC<{
     color: '#00B99A',
     description: 'Unique accounts reached',
     trend: [120, 132, 145, 158, 172, 189, 205, 224, 240],
-    mpid: "b21be90f-e4a1-4cd1-93c7-229cba21871b"
+    mpid: "3edae834-a010-44a3-9f25-06cb63d4d826"
   }, {
     title: 'Engagement Rate',
     value: '6.8%',
@@ -94,7 +94,7 @@ const AnalyticsDashboard: React.FC<{
     color: '#8B7FFF',
     description: 'Average engagement across platforms',
     trend: [4.2, 4.5, 4.8, 5.1, 5.6, 6.0, 6.3, 6.5, 6.8],
-    mpid: "5d89d86c-d4b0-47b8-8644-afe25fb22844"
+    mpid: "50f56a8f-8423-4590-91dc-d8f9b41316e1"
   }, {
     title: 'Follower Growth',
     value: '+3,247',
@@ -104,7 +104,7 @@ const AnalyticsDashboard: React.FC<{
     color: '#FE8363',
     description: 'New followers this period',
     trend: [2100, 2250, 2400, 2650, 2800, 2950, 3100, 3200, 3247],
-    mpid: "f0fb1aa3-825b-416f-a171-3359ca94a93e"
+    mpid: "bc24c437-c6c7-4b71-a294-21a699404688"
   }, {
     title: 'Content Performance',
     value: '94.2',
@@ -114,7 +114,7 @@ const AnalyticsDashboard: React.FC<{
     color: '#0D9488',
     description: 'Average performance score',
     trend: [92, 93, 94, 95, 96, 95, 94, 94, 94.2],
-    mpid: "7c5e8c6a-3571-4967-b424-fd5d7a68adad"
+    mpid: "2b3014f1-e6e4-4d51-87a9-90678b5e1724"
   }, {
     title: 'Click-Through Rate',
     value: '3.4%',
@@ -124,7 +124,7 @@ const AnalyticsDashboard: React.FC<{
     color: '#F59E0B',
     description: 'Link clicks per impression',
     trend: [2.1, 2.3, 2.6, 2.8, 3.0, 3.1, 3.2, 3.3, 3.4],
-    mpid: "4e9204aa-8488-4f5d-8905-d890c7497927"
+    mpid: "eee23070-1fd7-456e-85b8-9b3fa36c9e57"
   }, {
     title: 'Share Rate',
     value: '1.9%',
@@ -134,7 +134,7 @@ const AnalyticsDashboard: React.FC<{
     color: '#6366F1',
     description: 'Content sharing frequency',
     trend: [1.8, 1.8, 1.9, 1.9, 1.9, 1.9, 1.9, 1.9, 1.9],
-    mpid: "7e4ab790-a755-4ca6-8edd-06a9d7bacd1c"
+    mpid: "59786bbb-d3f6-424e-aa6f-f642c4d8dd48"
   }] as any[];
 
   // Enhanced engagement data with more granular time periods
@@ -146,7 +146,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 245,
     comments: 156,
     likes: 3200,
-    mpid: "90d1a78b-877c-4599-9406-9f583bae477d"
+    mpid: "567d2d59-8884-451b-9532-7736a654b83e"
   }, {
     name: 'Tue',
     engagement: 3800,
@@ -155,7 +155,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 198,
     comments: 134,
     likes: 2900,
-    mpid: "dff980f0-a34d-4b86-8814-7f8e9503ba76"
+    mpid: "af3b16cc-1520-42b4-b5a4-0121374ef235"
   }, {
     name: 'Wed',
     engagement: 5200,
@@ -164,7 +164,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 320,
     comments: 210,
     likes: 4100,
-    mpid: "10d6e181-316d-4210-908e-7597480f2a59"
+    mpid: "12d016e0-65fa-4ba5-820c-a9d931bdcb87"
   }, {
     name: 'Thu',
     engagement: 4600,
@@ -173,7 +173,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 275,
     comments: 178,
     likes: 3600,
-    mpid: "08ec6531-7806-4f93-b961-dbbba0fd68cf"
+    mpid: "bad7a9d9-ae8d-46eb-9e35-c1c7497850ef"
   }, {
     name: 'Fri',
     engagement: 6800,
@@ -182,7 +182,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 410,
     comments: 285,
     likes: 5200,
-    mpid: "cbb7a079-d6db-481f-9afe-72c72608ab2f"
+    mpid: "0169b0b7-bda4-412b-85c7-6c76a61a7ed9"
   }, {
     name: 'Sat',
     engagement: 7200,
@@ -191,7 +191,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 485,
     comments: 320,
     likes: 5800,
-    mpid: "10ef93b3-d2ce-4390-bd17-5afe5049dcaa"
+    mpid: "6efb0264-83cb-4775-95e1-82c72f26c07b"
   }, {
     name: 'Sun',
     engagement: 5900,
@@ -200,7 +200,7 @@ const AnalyticsDashboard: React.FC<{
     shares: 365,
     comments: 245,
     likes: 4500,
-    mpid: "aa797dab-e43e-4f4b-a64a-b38e313e0dcc"
+    mpid: "17e16cd3-7b5f-493d-a1ee-88d05ce69c7c"
   }] as any[];
 
   // Platform performance with detailed metrics and real social media logos
@@ -215,7 +215,7 @@ const AnalyticsDashboard: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="10" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" data-magicpath-id="11" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "718307ee-01bb-46d1-99ae-6b1ac377df5b"
+    mpid: "14072ed4-384e-44b6-a64e-9a6844228269"
   }, {
     name: 'X (Twitter)',
     followers: 23800,
@@ -227,7 +227,7 @@ const AnalyticsDashboard: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="12" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" data-magicpath-id="13" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "f4511167-5897-4d30-b15f-e4c44027500f"
+    mpid: "a17aadb5-bd28-4f00-ab62-9c3aad4e60a6"
   }, {
     name: 'LinkedIn',
     followers: 18500,
@@ -239,7 +239,7 @@ const AnalyticsDashboard: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="14" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" data-magicpath-id="15" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "fd3fc815-d0e9-4a4b-b8ed-7f8474b8a34d"
+    mpid: "dc902f4a-596c-486b-93d0-1e2e3beea065"
   }, {
     name: 'TikTok',
     followers: 67300,
@@ -251,7 +251,7 @@ const AnalyticsDashboard: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="16" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" data-magicpath-id="17" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "3cc0647c-00c9-4c0b-b8a9-9bb9fbaf5ba5"
+    mpid: "bdb80d44-1c7e-4157-87de-be067df75149"
   }, {
     name: 'YouTube',
     followers: 12400,
@@ -263,7 +263,7 @@ const AnalyticsDashboard: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="18" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" data-magicpath-id="19" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "b6ed644b-0df1-4080-8b25-d971fc7ecc91"
+    mpid: "9f960bd3-eef9-4faf-be34-e47dffb3ee21"
   }] as any[];
 
   // Audience demographics data
@@ -271,27 +271,27 @@ const AnalyticsDashboard: React.FC<{
     age: '18-24',
     percentage: 28,
     color: '#8B7FFF',
-    mpid: "9a366b72-dabd-4e76-86d5-0b35a04901b8"
+    mpid: "1e4b1579-c996-4eb5-943e-40cfa1083657"
   }, {
     age: '25-34',
     percentage: 35,
     color: '#00B99A',
-    mpid: "814ebdd9-1582-454a-9a41-ed29cdf86661"
+    mpid: "4e270b28-3260-46cd-8695-09ec91ed3ac9"
   }, {
     age: '35-44',
     percentage: 22,
     color: '#FE8363',
-    mpid: "bf778f61-20f1-46bc-9f31-7b79a083cead"
+    mpid: "e25b243a-4661-4a85-9e95-91d5c1a587ce"
   }, {
     age: '45-54',
     percentage: 12,
     color: '#F59E0B',
-    mpid: "2fde588a-d93a-4e92-9e3d-936a2e10123c"
+    mpid: "d183e143-1fac-41ea-a63e-a833f63b4d20"
   }, {
     age: '55+',
     percentage: 3,
     color: '#6366F1',
-    mpid: "054c252b-0f87-4bbb-8ae6-863f0198b2c7"
+    mpid: "a201a975-1b49-4efd-9ab3-187299f7174a"
   }] as any[];
 
   // Content performance by type
@@ -300,31 +300,31 @@ const AnalyticsDashboard: React.FC<{
     posts: 45,
     engagement: 6.8,
     reach: 450000,
-    mpid: "3c0ff2aa-a143-4934-b8a1-cc1075e11960"
+    mpid: "7bc3cb9e-fc76-4260-8f3e-0b2938221234"
   }, {
     type: 'Videos',
     posts: 28,
     engagement: 9.2,
     reach: 680000,
-    mpid: "3a46ed7c-5f40-4f04-ae29-8a625c073c0a"
+    mpid: "50ab7d8c-9075-46df-b06c-ce837e5c01ac"
   }, {
     type: 'Carousels',
     posts: 18,
     engagement: 7.5,
     reach: 320000,
-    mpid: "6f09bda2-59ec-4551-937e-a8b7863419ce"
+    mpid: "f6b7b290-d888-4928-9c8b-9fb0783128c1"
   }, {
     type: 'Stories',
     posts: 62,
     engagement: 4.2,
     reach: 280000,
-    mpid: "5459ac29-2b80-4bc3-b472-5302a4964016"
+    mpid: "a0a24762-1f93-4b9d-a268-3ebb9de15a47"
   }, {
     type: 'Reels',
     posts: 15,
     engagement: 12.4,
     reach: 890000,
-    mpid: "4b55ee8f-a704-4b88-9083-517ab038578a"
+    mpid: "9a15321b-2564-4058-a3bb-4b3a6a1da290"
   }] as any[];
 
   // Top performing posts
@@ -338,7 +338,7 @@ const AnalyticsDashboard: React.FC<{
     comments: 245,
     shares: 156,
     date: '2 days ago',
-    mpid: "538f71e0-dd8c-4d66-a7be-c9f62bbd9f26"
+    mpid: "860a2a95-9454-477b-8429-61225be0fd56"
   }, {
     platform: 'TikTok',
     type: 'Video',
@@ -349,7 +349,7 @@ const AnalyticsDashboard: React.FC<{
     comments: 380,
     shares: 290,
     date: '4 days ago',
-    mpid: "e192d576-8e57-433e-b5bb-b7cd6e9f8f3a"
+    mpid: "807d3ae5-57eb-4349-845c-3df82c4273eb"
   }, {
     platform: 'LinkedIn',
     type: 'Article',
@@ -360,7 +360,7 @@ const AnalyticsDashboard: React.FC<{
     comments: 156,
     shares: 89,
     date: '1 week ago',
-    mpid: "27136040-2c58-452f-a454-2739f4a9cad4"
+    mpid: "3bdb4846-438f-4db2-be08-b65c0f9ae1e3"
   }, {
     platform: 'X (Twitter)',
     type: 'Thread',
@@ -371,7 +371,7 @@ const AnalyticsDashboard: React.FC<{
     comments: 95,
     shares: 145,
     date: '3 days ago',
-    mpid: "8eeda279-250a-49c6-808f-d096df9ba870"
+    mpid: "14ddd5a3-b546-4f9d-8fb4-744ffe3e27e5"
   }] as any[];
   const getChangeIcon = (changeType: string) => {
     switch (changeType) {
@@ -407,15 +407,15 @@ const AnalyticsDashboard: React.FC<{
             {[{
             label: '7D',
             value: '7d',
-            mpid: "b90eeb9c-d6fb-40ff-9720-c95793978f48"
+            mpid: "00739e53-2b08-4a19-98dc-ce63e2ece4db"
           }, {
             label: '30D',
             value: '30d',
-            mpid: "3110f31a-ce54-43d2-aea5-b81c1a3a02f5"
+            mpid: "5c53ada9-5e0a-4068-b713-1b78651988f1"
           }, {
             label: '90D',
             value: '90d',
-            mpid: "1d574785-b99e-439f-89b8-752f17a03257"
+            mpid: "8d746004-a38c-452e-8e49-1e1762eb2467"
           }].map(range => <button key={range.value} onClick={() => setTimeRange(range.value)} className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${timeRange === range.value ? 'text-white' : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'}`} style={{
             backgroundColor: timeRange === range.value ? accentColor : 'transparent'
           }} data-magicpath-uuid={(range as any)["mpid"] ?? "unsafe"} data-magicpath-field="label:unknown" data-magicpath-id="30" data-magicpath-path="DashboardContentRouter.tsx">
@@ -722,92 +722,92 @@ const HomeDashboard: React.FC<{
     change: '+12%',
     icon: MessageSquare,
     color: '#00B99A',
-    mpid: "342aa2d9-ec57-45c2-80b3-760b200b9733"
+    mpid: "ff92ed11-45bc-4afc-a39a-7dd8c7c98fff"
   }, {
     title: 'Engagement Rate',
     value: '4.8%',
     change: '+0.3%',
     icon: Heart,
     color: '#8B7FFF',
-    mpid: "57547898-d55f-4dcf-9cff-6365d7dfe76a"
+    mpid: "4601973d-304d-45c7-8df7-7df920ab7b78"
   }, {
     title: 'Followers',
     value: '23.5K',
     change: '+5.2%',
     icon: Users,
     color: '#FE8363',
-    mpid: "cd3c9988-b9bf-4a5d-ab2f-ced92573db07"
+    mpid: "fc349ddf-7dae-4c5f-950f-847afed21e80"
   }, {
     title: 'Reach',
     value: '156K',
     change: '+18%',
     icon: Eye,
     color: '#0D9488',
-    mpid: "c2610298-92ad-4e14-a518-29cdd09e4639"
+    mpid: "2eeae386-87e4-4ca4-b94b-cbb29b3ec590"
   }] as any[];
   const weeklyEngagementData = [{
     name: 'Mon',
     posts: 12,
     engagement: 450,
     reach: 2400,
-    mpid: "52837b54-58ac-42cc-a312-3f561e2027f8"
+    mpid: "cd512b60-55bc-46bd-bd36-8702460bbb8a"
   }, {
     name: 'Tue',
     posts: 8,
     engagement: 380,
     reach: 1800,
-    mpid: "fe86abb1-474c-41a1-a93b-01a78aa527be"
+    mpid: "feca256a-b48d-43d7-8013-a38081618aa9"
   }, {
     name: 'Wed',
     posts: 15,
     engagement: 620,
     reach: 3200,
-    mpid: "537aa6ab-0e43-4296-b720-7346f6a71859"
+    mpid: "80114962-a267-4aa9-b0ec-b102f082aae6"
   }, {
     name: 'Thu',
     posts: 10,
     engagement: 520,
     reach: 2800,
-    mpid: "bdf879ee-e273-416e-93d8-fe45e2bfdadf"
+    mpid: "449b5d0f-3003-45b8-9dc9-b1d326015490"
   }, {
     name: 'Fri',
     posts: 18,
     engagement: 780,
     reach: 4100,
-    mpid: "572871c8-789a-4d08-a213-24c478342cca"
+    mpid: "3a669833-1a11-4220-95ae-f98e53ef300a"
   }, {
     name: 'Sat',
     posts: 22,
     engagement: 890,
     reach: 4800,
-    mpid: "ceec7d77-51b2-4da3-9c1e-782b271abfd9"
+    mpid: "6cef285c-e7f7-4363-a8cd-8d1965f37000"
   }, {
     name: 'Sun',
     posts: 16,
     engagement: 650,
     reach: 3600,
-    mpid: "fc8e2505-d179-4388-af51-5a3e70473b4a"
+    mpid: "9d1af1e6-c8ce-4b57-8701-2de07493e368"
   }] as any[];
   const platformData = [{
     name: 'Instagram',
     value: 35,
     color: '#E4405F',
-    mpid: "2e82bc1a-86de-43f3-b54d-5e604d92aad4"
+    mpid: "3cc567b7-a2b4-4d30-935e-7083a34095f9"
   }, {
     name: 'X (Twitter)',
     value: 25,
     color: '#000000',
-    mpid: "b907885e-f3a7-462b-983d-a0c34e8a0a75"
+    mpid: "a1ba75c4-092e-42b9-8a53-d9734f58d3b7"
   }, {
     name: 'LinkedIn',
     value: 20,
     color: '#0077B5',
-    mpid: "e2626441-5334-44a5-aace-4277b4f337c2"
+    mpid: "09acf875-5597-499e-905a-265b6dad3702"
   }, {
     name: 'TikTok',
     value: 20,
     color: '#FF0050',
-    mpid: "7d13ddab-6f9f-44a7-ae4b-789ed75a3e08"
+    mpid: "8bf853ce-bad7-41ca-9196-0a756a675ee5"
   }] as any[];
   const topPostsData = [{
     platform: 'Instagram',
@@ -815,28 +815,28 @@ const HomeDashboard: React.FC<{
     likes: 1247,
     comments: 89,
     shares: 34,
-    mpid: "6d873b53-6225-4a8a-97c6-eccc124161ed"
+    mpid: "52807b96-64e7-473a-a5c0-664d1472c40e"
   }, {
     platform: 'X (Twitter)',
     content: 'Industry insights thread',
     likes: 892,
     comments: 156,
     shares: 78,
-    mpid: "1c525dff-bb86-4826-b54f-1c92f49d13bb"
+    mpid: "f1a7e81b-761b-49d4-93d4-ac04276083fd"
   }, {
     platform: 'LinkedIn',
     content: 'Professional tips article',
     likes: 634,
     comments: 45,
     shares: 92,
-    mpid: "298c0a55-729d-490c-af08-b94004eb3995"
+    mpid: "cbdfeb63-e904-4302-b8ff-59202a4f1ae6"
   }, {
     platform: 'TikTok',
     content: 'Behind the scenes video',
     likes: 2156,
     comments: 234,
     shares: 145,
-    mpid: "34ff9a29-ead2-44cc-8820-5a3715febdcc"
+    mpid: "a160175f-2187-44a9-9b14-a1a4c0125e71"
   }] as any[];
   return <div className="space-y-8" data-magicpath-id="119" data-magicpath-path="DashboardContentRouter.tsx">
       {/* Header Section */}
@@ -1043,22 +1043,22 @@ const HomeDashboard: React.FC<{
               label: 'Schedule Post',
               icon: Calendar,
               color: '#00B99A',
-              mpid: "851ad168-ff6e-4560-a296-a45cd118487f"
+              mpid: "94299011-f560-4082-9e1a-39e11f516036"
             }, {
               label: 'Generate Content',
               icon: Zap,
               color: '#8B7FFF',
-              mpid: "df24406b-ee61-419d-b1f1-7ca62f4d5b04"
+              mpid: "76ffa77c-0a0e-43dc-b60c-55c87b189355"
             }, {
               label: 'View Analytics',
               icon: BarChart3,
               color: '#FE8363',
-              mpid: "a461013b-3c38-494b-9061-11e35ecc547c"
+              mpid: "9f300e4a-3b3c-402c-826a-bfe8ab9d5553"
             }, {
               label: 'Manage Connections',
               icon: Globe,
               color: '#0D9488',
-              mpid: "9026e8a3-718c-47a1-8df2-5dd4009b1bb4"
+              mpid: "0c8a85e1-368f-423c-9e1e-a2fdd4eb2ed8"
             }].map((action, index) => <motion.button key={action.label} whileHover={{
               scale: 1.05
             }} whileTap={{
@@ -1082,22 +1082,22 @@ const HomeDashboard: React.FC<{
               action: 'Posted to Instagram',
               time: '2 hours ago',
               status: 'success',
-              mpid: "24b7c4c0-a8f6-4784-a749-f22be57e8e10"
+              mpid: "4df90594-def9-44aa-94bc-fa2edd0d2931"
             }, {
               action: 'Scheduled LinkedIn post',
               time: '4 hours ago',
               status: 'pending',
-              mpid: "1771c098-6f49-437c-bedb-2636cc70aff4"
+              mpid: "b911ab8c-e74a-4c13-825d-4f65fc36b6f4"
             }, {
               action: 'Generated AI content',
               time: '6 hours ago',
               status: 'success',
-              mpid: "77f810dd-e89b-4dc6-ba6f-eb1c7f647465"
+              mpid: "e41dc2bb-f695-4cda-ab53-ae6f3d8925e6"
             }, {
               action: 'Updated profile settings',
               time: '1 day ago',
               status: 'success',
-              mpid: "76dd50f3-8cc8-41fe-9c92-21226d45ac63"
+              mpid: "29a4c670-8f3f-45fe-ac49-8ea84c2da626"
             }].map((activity, index) => <motion.div key={index} initial={{
               opacity: 0,
               x: -10
@@ -1357,15 +1357,15 @@ const Preferences: React.FC<{
             {[{
             label: 'Email notifications',
             enabled: true,
-            mpid: "1f547279-4687-4413-bd20-eba05eb7b4ea"
+            mpid: "f9878e48-cd7d-4533-a5fd-7bec0155713f"
           }, {
             label: 'Push notifications',
             enabled: false,
-            mpid: "1baa10b5-af3c-4d70-aefc-355b2c44759a"
+            mpid: "7ec19c17-1428-4068-bb5e-d0219da55e4c"
           }, {
             label: 'Weekly reports',
             enabled: true,
-            mpid: "e57a96c8-057d-443c-b7f4-c17471a144d5"
+            mpid: "3b7bad6a-30d3-4990-a46a-9f82df527afb"
           }].map((setting, index) => <div key={index} className="flex items-center justify-between" data-magicpath-uuid={(setting as any)["mpid"] ?? "unsafe"} data-magicpath-id="278" data-magicpath-path="DashboardContentRouter.tsx">
                 <span className="text-sm text-gray-700 dark:text-gray-300" data-magicpath-uuid={(setting as any)["mpid"] ?? "unsafe"} data-magicpath-field="label:unknown" data-magicpath-id="279" data-magicpath-path="DashboardContentRouter.tsx">{setting.label}</span>
                 <div className={`w-12 h-6 rounded-full p-1 transition-colors ${setting.enabled ? 'bg-green-500' : 'bg-gray-300 dark:bg-gray-600'}`} data-magicpath-uuid={(setting as any)["mpid"] ?? "unsafe"} data-magicpath-id="280" data-magicpath-path="DashboardContentRouter.tsx">
@@ -1394,7 +1394,7 @@ const Connections: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="282" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" data-magicpath-id="283" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "86bd03fa-d902-4fbf-8599-88c2e1073f7e"
+    mpid: "d38534fc-9082-4763-97bf-60e036e66588"
   }, {
     name: 'X (Twitter)',
     connected: true,
@@ -1403,7 +1403,7 @@ const Connections: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="284" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" data-magicpath-id="285" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "7511c512-aec6-4e39-ad1b-76d0a799087e"
+    mpid: "d1bc7c58-155d-4119-a571-720b005cd75a"
   }, {
     name: 'LinkedIn',
     connected: false,
@@ -1412,7 +1412,7 @@ const Connections: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="286" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" data-magicpath-id="287" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "db3cc670-f813-4f26-a436-ef3a19c21239"
+    mpid: "14088157-1111-4084-9962-e89388021f38"
   }, {
     name: 'Facebook',
     connected: true,
@@ -1421,7 +1421,7 @@ const Connections: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="288" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" data-magicpath-id="289" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "1f69a32b-8333-42a8-99a5-464a1d71d1aa"
+    mpid: "f4b17730-d186-4b4e-a8aa-2b13deee18fc"
   }, {
     name: 'TikTok',
     connected: false,
@@ -1430,7 +1430,7 @@ const Connections: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="290" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" data-magicpath-id="291" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "79d120b6-b3a9-475b-aeab-4ee8808ef84a"
+    mpid: "3235a8be-7b01-418c-877b-81a334060eec"
   }, {
     name: 'YouTube',
     connected: false,
@@ -1439,7 +1439,7 @@ const Connections: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="292" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" data-magicpath-id="293" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "53cdd1ab-3391-43b7-9de9-35285f1221c7"
+    mpid: "2bac920e-689c-403f-8103-8a97345b4846"
   }, {
     name: 'Threads',
     connected: false,
@@ -1449,7 +1449,7 @@ const Connections: React.FC<{
           <path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.5 12.01 1.5 8.434 2.35 5.58 3.995 3.529 5.845 1.225 8.598.044 12.179.02h.014c3.581.024 6.334 1.205 8.184 3.509C21.65 5.58 22.5 8.434 22.5 12.01c0 3.576-.85 6.43-2.495 8.481-1.85 2.304-4.603 3.485-8.184 3.509zM12.186 2.574c-2.815.02-4.962.93-6.38 2.703C4.364 6.954 3.75 9.28 3.75 12.01s.615 5.056 2.056 6.733c1.418 1.773 3.565 2.683 6.38 2.703 2.815-.02 4.962-.93 6.38-2.703 1.441-1.677 2.056-4.003 2.056-6.733s-.615-5.056-2.056-6.733c-1.418-1.773-3.565-2.683-6.38-2.703z" data-magicpath-id="295" data-magicpath-path="DashboardContentRouter.tsx" />
           <path d="M17.74 8.847c0-1.492-.585-2.909-1.648-3.99C14.929 3.776 13.53 3.18 12.05 3.18c-1.48 0-2.879.596-4.042 1.677-1.063 1.081-1.648 2.498-1.648 3.99 0 .414.336.75.75.75s.75-.336.75-.75c0-1.078.423-2.1 1.19-2.878.767-.778 1.777-1.209 2.84-1.209 1.063 0 2.073.431 2.84 1.209.767.778 1.19 1.8 1.19 2.878 0 .414.336.75.75.75s.75-.336.75-.75z" data-magicpath-id="296" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "69552ee7-e943-4a68-b29c-127eeb11dc89"
+    mpid: "1169b4c8-92e5-452f-bb6a-028a69dd54cb"
   }, {
     name: 'Pinterest',
     connected: false,
@@ -1458,7 +1458,7 @@ const Connections: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="297" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M12 0C5.374 0 0 5.372 0 12.017 0 17.075 3.235 21.426 7.751 22.77c-.109-.949-.199-2.403.042-3.441.219-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.888-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.357-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.001 12.001 24.001c6.624 0 11.999-5.373 11.999-12.017C24 5.372 18.626.001 12.001.001z" data-magicpath-id="298" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "b6f0f727-88b0-44a3-8f78-ec78968340b2"
+    mpid: "c7bd5906-8dbc-4599-8a18-c93e494f9afc"
   }, {
     name: 'Snapchat',
     connected: false,
@@ -1467,7 +1467,7 @@ const Connections: React.FC<{
     logo: <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor" data-magicpath-id="299" data-magicpath-path="DashboardContentRouter.tsx">
           <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.042-3.441.219-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.888-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.357-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.374.213 2.566.402 3.804.402 6.624 0 11.999-5.373 11.999-12.017C24.016 5.367 18.641.001 12.017.001z" data-magicpath-id="300" data-magicpath-path="DashboardContentRouter.tsx" />
         </svg>,
-    mpid: "07608f14-b17a-4888-b611-da26176a6e1b"
+    mpid: "bad01d09-eed9-497b-9b7b-f3f5bf9afafa"
   }] as any[];
   return <div className="space-y-6" data-magicpath-id="301" data-magicpath-path="DashboardContentRouter.tsx">
       <div data-magicpath-id="302" data-magicpath-path="DashboardContentRouter.tsx">
@@ -1529,25 +1529,25 @@ const AlertsPage: React.FC<{
     title: 'Post Published',
     message: 'Your Instagram post has been published successfully',
     time: '2 minutes ago',
-    mpid: "2cb97e6a-2a4e-40af-bc80-99a2a2ffe574"
+    mpid: "e3780d13-fe53-49ee-9dfb-5e1a71183b37"
   }, {
     type: 'warning',
     title: 'Engagement Drop',
     message: 'Your engagement rate has decreased by 15% this week',
     time: '1 hour ago',
-    mpid: "6e56b58f-d748-4e52-9b78-d62729554019"
+    mpid: "eedcb726-8909-48f6-a529-dc7f8d33a3a9"
   }, {
     type: 'info',
     title: 'Scheduled Post',
     message: 'Your LinkedIn post is scheduled for 3:00 PM today',
     time: '3 hours ago',
-    mpid: "ba8972f2-2b9c-404d-ab0c-f604479afac4"
+    mpid: "5e7dff9a-703c-4b96-a595-fe8e7be9dcf2"
   }, {
     type: 'error',
     title: 'Connection Failed',
     message: 'Failed to connect to X (Twitter) API. Please check your credentials',
     time: '5 hours ago',
-    mpid: "ed1cd2a5-6d59-46b8-ad54-880486805256"
+    mpid: "7d49dd15-c78d-445c-83c0-d4c42ffbd1a5"
   }] as any[];
   const getAlertColor = (type: string) => {
     switch (type) {
