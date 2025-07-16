@@ -26,61 +26,61 @@ const navigationItems: NavigationItem[] = [{
   label: 'Dashboard',
   icon: Home,
   isPrimary: true,
-  mpid: "f7e01288-982a-4caa-815f-b9a43fd367e9"
+  mpid: "fda4c179-8cac-4cc1-bbf8-86b079246ea6"
 }, {
   id: 'alerts',
   label: 'Alerts',
   icon: Bell,
   isPrimary: true,
-  mpid: "c0f8c4c4-98b6-4ce5-907c-0522f8ce5c17"
+  mpid: "4589d793-921c-42fa-9300-673926026dc2"
 }, {
   id: 'content',
   label: 'Content Creator',
   icon: PenTool,
   isPrimary: true,
-  mpid: "1028d448-85fb-4faf-8eed-24773a3e0a8e"
+  mpid: "c2cc694e-4297-4887-88eb-45120f8b370e"
 }, {
   id: 'planner',
   label: 'Post Planner',
   icon: Calendar,
   isPrimary: true,
-  mpid: "19cc8aa6-1ec9-4388-98e4-22e1d1025cc2"
+  mpid: "43ebe17a-b988-4c13-81bb-04db9220c523"
 }, {
   id: 'analytics',
   label: 'Analytics',
   icon: BarChart3,
   isPrimary: true,
-  mpid: "7ec1fb70-5ff6-4155-aed6-2060fba1b9e9"
+  mpid: "7db4d8b7-ee5c-41a4-8dfb-cdb0052c18db"
 }, {
   id: 'preferences',
   label: 'Preferences',
   icon: Settings,
   isPrimary: true,
-  mpid: "0e940f16-0da8-4346-b399-f382b7ab265f"
+  mpid: "16b930e7-5756-4b74-a74b-35b73f6d265b"
 }, {
   id: 'connections',
   label: 'Connections',
   icon: Link,
   isPrimary: true,
-  mpid: "313a7fc3-6395-4299-a97b-d413d476198e"
+  mpid: "b72f888f-5231-4855-a933-31f99bf756e7"
 }, {
   id: 'content-hub',
   label: 'Content Hub',
   icon: FolderOpen,
   isPrimary: false,
-  mpid: "3c3bc79d-27c1-44a2-9a26-785eb3e01127"
+  mpid: "0a30ff2e-bfa7-4b03-800e-30759df18fc4"
 }, {
   id: 'audience',
   label: 'Audience Analytics',
   icon: Users,
   isPrimary: false,
-  mpid: "34bc1eb2-f745-4c86-bada-09235845716d"
+  mpid: "3673c971-fef7-41f0-8b81-4ea656ce3a50"
 }, {
   id: 'hashtags',
   label: 'Hashtag Organizer',
   icon: Hash,
   isPrimary: false,
-  mpid: "fcc320c7-8ff3-41d9-b044-14cf397f062e"
+  mpid: "9ea50670-73c2-47d0-bd3f-def405d762e0"
 }];
 const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
   activeSection,
@@ -127,34 +127,134 @@ const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
           opacity: 0,
           x: -20
         }} className="flex items-center space-x-2" data-magicpath-id="3" data-magicpath-path="SidebarNavigation.tsx">
-              <div className="w-8 h-8 rounded-lg flex items-center justify-center text-white font-bold" style={{
-            backgroundColor: accentColor
-          }} data-magicpath-id="4" data-magicpath-path="SidebarNavigation.tsx">
-                R
+              <div className="w-8 h-8 rounded-lg flex items-center justify-center" data-magicpath-id="4" data-magicpath-path="SidebarNavigation.tsx">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 375 374.999991" preserveAspectRatio="xMidYMid meet" version="1.2" data-magicpath-id="5" data-magicpath-path="SidebarNavigation.tsx">
+                  <defs data-magicpath-id="6" data-magicpath-path="SidebarNavigation.tsx">
+                    <clipPath id="7a447a7b48" data-magicpath-id="7" data-magicpath-path="SidebarNavigation.tsx"><path d="M 109.125 181.933594 L 161.625 181.933594 L 161.625 234.433594 L 109.125 234.433594 Z M 109.125 181.933594 " data-magicpath-id="8" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
+                    <clipPath id="69a4bb68e6" data-magicpath-id="9" data-magicpath-path="SidebarNavigation.tsx"><path d="M 109.125 130.183594 L 161.625 130.183594 L 161.625 182.683594 L 109.125 182.683594 Z M 109.125 130.183594 " data-magicpath-id="10" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
+                    <clipPath id="1346d79464" data-magicpath-id="11" data-magicpath-path="SidebarNavigation.tsx"><path d="M 213.375 181.933594 L 265.875 181.933594 L 265.875 234.433594 L 213.375 234.433594 Z M 213.375 181.933594 " data-magicpath-id="12" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
+                    <clipPath id="e0afa5629e" data-magicpath-id="13" data-magicpath-path="SidebarNavigation.tsx"><path d="M 213.375 208.183594 C 213.375 201.21875 216.140625 194.542969 221.0625 189.621094 C 225.984375 184.699219 232.664062 181.933594 239.625 181.933594 C 246.585938 181.933594 253.265625 184.699219 258.1875 189.621094 C 263.109375 194.542969 265.875 201.21875 265.875 208.183594 C 265.875 215.144531 263.109375 221.820312 258.1875 226.742188 C 253.265625 231.667969 246.585938 234.433594 239.625 234.433594 C 232.664062 234.433594 225.984375 231.667969 221.0625 226.742188 C 216.140625 221.820312 213.375 215.144531 213.375 208.183594 Z M 213.375 208.183594 " data-magicpath-id="14" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
+                    <clipPath id="7e559bee84" data-magicpath-id="15" data-magicpath-path="SidebarNavigation.tsx"><path d="M 161.625 181.933594 L 214.125 181.933594 L 214.125 234.433594 L 161.625 234.433594 Z M 161.625 181.933594 " data-magicpath-id="16" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
+                    <clipPath id="497bfb539c" data-magicpath-id="17" data-magicpath-path="SidebarNavigation.tsx"><path d="M 109.125 69.617188 L 214.125 69.617188 L 214.125 122.117188 L 109.125 122.117188 Z M 109.125 69.617188 " data-magicpath-id="18" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
+                    <clipPath id="14ca239f8c" data-magicpath-id="19" data-magicpath-path="SidebarNavigation.tsx"><path d="M 214.125 95.867188 C 214.125 102.828125 211.359375 109.507812 206.4375 114.429688 C 201.515625 119.351562 194.835938 122.117188 187.875 122.117188 L 135.375 122.117188 C 128.414062 122.117188 121.734375 119.351562 116.8125 114.429688 C 111.890625 109.507812 109.125 102.828125 109.125 95.867188 C 109.125 88.90625 111.890625 82.230469 116.8125 77.304688 C 121.734375 72.382812 128.414062 69.617188 135.375 69.617188 L 187.875 69.617188 C 194.835938 69.617188 201.515625 72.382812 206.4375 77.304688 C 211.359375 82.230469 214.125 88.90625 214.125 95.867188 Z M 214.125 95.867188 " data-magicpath-id="20" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
+                    <clipPath id="f1bf27afc0" data-magicpath-id="21" data-magicpath-path="SidebarNavigation.tsx"><path d="M 213.375 69.617188 L 265.875 69.617188 L 265.875 122.117188 L 213.375 122.117188 Z M 213.375 69.617188 " data-magicpath-id="22" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
+                    <clipPath id="8af721dc9c" data-magicpath-id="23" data-magicpath-path="SidebarNavigation.tsx"><path d="M 213.375 121.367188 L 265.875 121.367188 L 265.875 173.867188 L 213.375 173.867188 Z M 213.375 121.367188 " data-magicpath-id="24" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
+                    <clipPath id="ae7f69b539" data-magicpath-id="25" data-magicpath-path="SidebarNavigation.tsx"><path d="M 213.375 181.933594 L 239.625 181.933594 L 239.625 234.433594 L 213.375 234.433594 Z M 213.375 181.933594 " data-magicpath-id="26" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
+                    <clipPath id="f74768e930" data-magicpath-id="27" data-magicpath-path="SidebarNavigation.tsx"><path d="M 132.058594 69.617188 L 214.125 69.617188 L 214.125 122.117188 L 132.058594 122.117188 Z M 132.058594 69.617188 " data-magicpath-id="28" data-magicpath-path="SidebarNavigation.tsx" /></clipPath>
+                  </defs>
+                  <g data-magicpath-id="29" data-magicpath-path="SidebarNavigation.tsx">
+                    <rect x="0" width="375" y="0" height="374.999991" style={{
+                  fill: "#ffffff",
+                  fillOpacity: 1,
+                  stroke: "none"
+                }} data-magicpath-id="30" data-magicpath-path="SidebarNavigation.tsx" />
+                    <rect x="0" width="375" y="0" height="374.999991" style={{
+                  fill: "#ffffff",
+                  fillOpacity: 1,
+                  stroke: "none"
+                }} data-magicpath-id="31" data-magicpath-path="SidebarNavigation.tsx" />
+                    <g clipPath="url(#7a447a7b48)" data-magicpath-id="32" data-magicpath-path="SidebarNavigation.tsx">
+                      <path style={{
+                    stroke: "none",
+                    fillRule: "nonzero",
+                    fill: "#fc7557",
+                    fillOpacity: 1
+                  }} d="M 109.125 181.933594 L 161.625 181.933594 L 161.625 234.433594 L 109.125 234.433594 Z M 109.125 181.933594 " data-magicpath-id="33" data-magicpath-path="SidebarNavigation.tsx" />
+                    </g>
+                    <g clipPath="url(#69a4bb68e6)" data-magicpath-id="34" data-magicpath-path="SidebarNavigation.tsx">
+                      <path style={{
+                    stroke: "none",
+                    fillRule: "nonzero",
+                    fill: "#989cfc",
+                    fillOpacity: 1
+                  }} d="M 161.625 130.183594 C 132.628906 130.183594 109.125 153.6875 109.125 182.683594 L 161.625 182.683594 Z M 161.625 130.183594 " data-magicpath-id="35" data-magicpath-path="SidebarNavigation.tsx" />
+                    </g>
+                    <g clipPath="url(#1346d79464)" data-magicpath-id="36" data-magicpath-path="SidebarNavigation.tsx">
+                      <g clipPath="url(#e0afa5629e)" data-magicpath-id="37" data-magicpath-path="SidebarNavigation.tsx">
+                        <path style={{
+                      stroke: "none",
+                      fillRule: "nonzero",
+                      fill: "#f9c558",
+                      fillOpacity: 1
+                    }} d="M 213.375 234.433594 L 213.375 181.933594 L 265.875 181.933594 L 265.875 234.433594 Z M 213.375 234.433594 " data-magicpath-id="38" data-magicpath-path="SidebarNavigation.tsx" />
+                      </g>
+                    </g>
+                    <g clipPath="url(#7e559bee84)" data-magicpath-id="39" data-magicpath-path="SidebarNavigation.tsx">
+                      <path style={{
+                    stroke: "none",
+                    fillRule: "nonzero",
+                    fill: "#989cfc",
+                    fillOpacity: 1
+                  }} d="M 161.625 181.933594 C 161.625 210.925781 185.128906 234.433594 214.125 234.433594 L 214.125 181.933594 Z M 161.625 181.933594 " data-magicpath-id="40" data-magicpath-path="SidebarNavigation.tsx" />
+                    </g>
+                    <g clipPath="url(#497bfb539c)" data-magicpath-id="41" data-magicpath-path="SidebarNavigation.tsx">
+                      <g clipPath="url(#14ca239f8c)" data-magicpath-id="42" data-magicpath-path="SidebarNavigation.tsx">
+                        <path style={{
+                      stroke: "none",
+                      fillRule: "nonzero",
+                      fill: "#fc7557",
+                      fillOpacity: 1
+                    }} d="M 214.125 69.617188 L 214.125 122.117188 L 109.125 122.117188 L 109.125 69.617188 Z M 214.125 69.617188 " data-magicpath-id="43" data-magicpath-path="SidebarNavigation.tsx" />
+                      </g>
+                    </g>
+                    <g clipPath="url(#f1bf27afc0)" data-magicpath-id="44" data-magicpath-path="SidebarNavigation.tsx">
+                      <path style={{
+                    stroke: "none",
+                    fillRule: "nonzero",
+                    fill: "#989cfc",
+                    fillOpacity: 1
+                  }} d="M 265.875 122.117188 C 265.875 93.121094 242.371094 69.617188 213.375 69.617188 L 213.375 122.117188 Z M 265.875 122.117188 " data-magicpath-id="45" data-magicpath-path="SidebarNavigation.tsx" />
+                    </g>
+                    <g clipPath="url(#8af721dc9c)" data-magicpath-id="46" data-magicpath-path="SidebarNavigation.tsx">
+                      <path style={{
+                    stroke: "none",
+                    fillRule: "nonzero",
+                    fill: "#f9c558",
+                    fillOpacity: 1
+                  }} d="M 213.375 173.867188 C 242.371094 173.867188 265.875 150.363281 265.875 121.367188 L 213.375 121.367188 Z M 213.375 173.867188 " data-magicpath-id="47" data-magicpath-path="SidebarNavigation.tsx" />
+                    </g>
+                    <g clipPath="url(#ae7f69b539)" data-magicpath-id="48" data-magicpath-path="SidebarNavigation.tsx">
+                      <path style={{
+                    stroke: "none",
+                    fillRule: "nonzero",
+                    fill: "#fc7557",
+                    fillOpacity: 1
+                  }} d="M 213.375 234.433594 L 213.375 181.933594 L 239.625 181.933594 L 239.625 234.433594 Z M 213.375 234.433594 " data-magicpath-id="49" data-magicpath-path="SidebarNavigation.tsx" />
+                    </g>
+                    <g clipPath="url(#f74768e930)" data-magicpath-id="50" data-magicpath-path="SidebarNavigation.tsx">
+                      <path style={{
+                    stroke: "none",
+                    fillRule: "nonzero",
+                    fill: "#f9c558",
+                    fillOpacity: 1
+                  }} d="M 214.125 69.617188 L 214.125 122.117188 L 132.09375 122.117188 L 132.09375 69.617188 Z M 214.125 69.617188 " data-magicpath-id="51" data-magicpath-path="SidebarNavigation.tsx" />
+                    </g>
+                  </g>
+                </svg>
               </div>
-              <h1 className="text-xl font-bold text-gray-900 dark:text-white" data-magicpath-id="5" data-magicpath-path="SidebarNavigation.tsx">Reaxo</h1>
+              <h1 className="text-xl font-bold text-gray-900 dark:text-white" data-magicpath-id="52" data-magicpath-path="SidebarNavigation.tsx">Reaxo</h1>
             </motion.div>}
         </AnimatePresence>
         
-        <button onClick={onToggleCollapse} className="hidden lg:flex p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label={isCollapsed ? 'Expand sidebar' : 'Collapse sidebar'} data-magicpath-id="6" data-magicpath-path="SidebarNavigation.tsx">
-          {isCollapsed ? <ChevronRight size={16} className="text-gray-600 dark:text-gray-400" data-magicpath-id="7" data-magicpath-path="SidebarNavigation.tsx" /> : <ChevronLeft size={16} className="text-gray-600 dark:text-gray-400" data-magicpath-id="8" data-magicpath-path="SidebarNavigation.tsx" />}
+        <button onClick={onToggleCollapse} className="hidden lg:flex p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label={isCollapsed ? 'Expand sidebar' : 'Collapse sidebar'} data-magicpath-id="53" data-magicpath-path="SidebarNavigation.tsx">
+          {isCollapsed ? <ChevronRight size={16} className="text-gray-600 dark:text-gray-400" data-magicpath-id="54" data-magicpath-path="SidebarNavigation.tsx" /> : <ChevronLeft size={16} className="text-gray-600 dark:text-gray-400" data-magicpath-id="55" data-magicpath-path="SidebarNavigation.tsx" />}
         </button>
       </div>
 
       {/* Navigation Items */}
-      <nav className="flex-1 p-4 space-y-2 overflow-y-auto" data-magicpath-id="9" data-magicpath-path="SidebarNavigation.tsx">
+      <nav className="flex-1 p-4 space-y-2 overflow-y-auto" data-magicpath-id="56" data-magicpath-path="SidebarNavigation.tsx">
         {/* Primary Items */}
-        <div className="space-y-1" data-magicpath-id="10" data-magicpath-path="SidebarNavigation.tsx">
-          {navigationItems.filter(item => item.isPrimary).map(item => <NavigationItem key={item.id} item={item} isActive={activeSection === item.id} isCollapsed={isCollapsed} accentColor={accentColor} onClick={() => handleItemClick(item.id)} data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-id="11" data-magicpath-path="SidebarNavigation.tsx" />)}
+        <div className="space-y-1" data-magicpath-id="57" data-magicpath-path="SidebarNavigation.tsx">
+          {navigationItems.filter(item => item.isPrimary).map(item => <NavigationItem key={item.id} item={item} isActive={activeSection === item.id} isCollapsed={isCollapsed} accentColor={accentColor} onClick={() => handleItemClick(item.id)} data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-id="58" data-magicpath-path="SidebarNavigation.tsx" />)}
         </div>
 
         {/* Secondary Items */}
-        {!isCollapsed && <div className="pt-4" data-magicpath-id="12" data-magicpath-path="SidebarNavigation.tsx">
-            <div className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2" data-magicpath-id="13" data-magicpath-path="SidebarNavigation.tsx">
+        {!isCollapsed && <div className="pt-4" data-magicpath-id="59" data-magicpath-path="SidebarNavigation.tsx">
+            <div className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2" data-magicpath-id="60" data-magicpath-path="SidebarNavigation.tsx">
               More Tools
             </div>
-            <div className="space-y-1" data-magicpath-id="14" data-magicpath-path="SidebarNavigation.tsx">
-              {navigationItems.filter(item => !item.isPrimary).map(item => <NavigationItem key={item.id} item={item} isActive={activeSection === item.id} isCollapsed={isCollapsed} accentColor={accentColor} onClick={() => handleItemClick(item.id)} data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-id="15" data-magicpath-path="SidebarNavigation.tsx" />)}
+            <div className="space-y-1" data-magicpath-id="61" data-magicpath-path="SidebarNavigation.tsx">
+              {navigationItems.filter(item => !item.isPrimary).map(item => <NavigationItem key={item.id} item={item} isActive={activeSection === item.id} isCollapsed={isCollapsed} accentColor={accentColor} onClick={() => handleItemClick(item.id)} data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-id="62" data-magicpath-path="SidebarNavigation.tsx" />)}
             </div>
           </div>}
       </nav>
@@ -163,13 +263,13 @@ const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
       {/* Desktop Sidebar */}
       <motion.aside variants={sidebarVariants} animate={isCollapsed ? 'collapsed' : 'expanded'} className="hidden lg:flex flex-col bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 z-30" style={{
       minHeight: '100vh'
-    }} data-magicpath-id="16" data-magicpath-path="SidebarNavigation.tsx">
-        <SidebarContent data-magicpath-id="17" data-magicpath-path="SidebarNavigation.tsx" />
+    }} data-magicpath-id="63" data-magicpath-path="SidebarNavigation.tsx">
+        <SidebarContent data-magicpath-id="64" data-magicpath-path="SidebarNavigation.tsx" />
       </motion.aside>
 
       {/* Mobile Sidebar */}
-      <motion.aside variants={mobileSidebarVariants} animate={isMobileMenuOpen ? 'open' : 'closed'} className="fixed inset-y-0 left-0 w-64 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 z-50 lg:hidden" data-magicpath-id="18" data-magicpath-path="SidebarNavigation.tsx">
-        <SidebarContent data-magicpath-id="19" data-magicpath-path="SidebarNavigation.tsx" />
+      <motion.aside variants={mobileSidebarVariants} animate={isMobileMenuOpen ? 'open' : 'closed'} className="fixed inset-y-0 left-0 w-64 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 z-50 lg:hidden" data-magicpath-id="65" data-magicpath-path="SidebarNavigation.tsx">
+        <SidebarContent data-magicpath-id="66" data-magicpath-path="SidebarNavigation.tsx" />
       </motion.aside>
     </>;
 };
@@ -194,10 +294,10 @@ const NavigationItem: React.FC<NavigationItemProps> = ({
     scale: 1.02
   }} whileTap={{
     scale: 0.98
-  }} aria-label={item.label} data-magicpath-id="20" data-magicpath-path="SidebarNavigation.tsx">
-      <item.icon size={20} className={`flex-shrink-0 ${isActive ? 'text-white' : 'text-gray-500 dark:text-gray-400 group-hover:text-gray-700 dark:group-hover:text-gray-300'}`} data-magicpath-id="21" data-magicpath-path="SidebarNavigation.tsx" />
+  }} aria-label={item.label} data-magicpath-id="67" data-magicpath-path="SidebarNavigation.tsx">
+      <item.icon size={20} className={`flex-shrink-0 ${isActive ? 'text-white' : 'text-gray-500 dark:text-gray-400 group-hover:text-gray-700 dark:group-hover:text-gray-300'}`} data-magicpath-id="68" data-magicpath-path="SidebarNavigation.tsx" />
       
-      <AnimatePresence mode="wait" data-magicpath-id="22" data-magicpath-path="SidebarNavigation.tsx">
+      <AnimatePresence mode="wait" data-magicpath-id="69" data-magicpath-path="SidebarNavigation.tsx">
         {!isCollapsed && <motion.span initial={{
         opacity: 0,
         x: -10
@@ -207,7 +307,7 @@ const NavigationItem: React.FC<NavigationItemProps> = ({
       }} exit={{
         opacity: 0,
         x: -10
-      }} className="font-medium truncate" data-magicpath-id="23" data-magicpath-path="SidebarNavigation.tsx">
+      }} className="font-medium truncate" data-magicpath-id="70" data-magicpath-path="SidebarNavigation.tsx">
             {item.label}
           </motion.span>}
       </AnimatePresence>
