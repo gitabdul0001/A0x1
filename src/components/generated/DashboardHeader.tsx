@@ -45,17 +45,17 @@ const DashboardHeader: React.FC<DashboardHeaderProps> = ({
     icon: User,
     label: 'Profile Settings',
     action: () => {},
-    mpid: "6bb831c7-07f4-4cbc-8d36-283abb46290b"
+    mpid: "511ae1dc-84a7-45ce-97ee-f554aa99a42f"
   }, {
     icon: Settings,
     label: 'Account Settings',
     action: () => {},
-    mpid: "256b4b22-e55f-40ff-91a7-4fb906d7081e"
+    mpid: "b62d0c8b-3eaa-41ff-b971-1007427c6dec"
   }, {
     icon: LogOut,
     label: 'Sign Out',
     action: () => {},
-    mpid: "d3b7b027-eaa7-4d54-ab05-42876b808a37"
+    mpid: "ec81a7c9-2a88-4809-a033-ca42470a4293"
   }] as any[];
   return <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 px-4 py-3" data-magicpath-id="10" data-magicpath-path="DashboardHeader.tsx">
       <div className="flex items-center justify-between" data-magicpath-id="11" data-magicpath-path="DashboardHeader.tsx">

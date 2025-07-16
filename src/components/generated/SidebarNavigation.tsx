@@ -26,61 +26,61 @@ const navigationItems: NavigationItem[] = [{
   label: 'Dashboard',
   icon: Home,
   isPrimary: true,
-  mpid: "fda4c179-8cac-4cc1-bbf8-86b079246ea6"
+  mpid: "2936940b-b4e0-433c-ae3a-a713bef1457e"
 }, {
   id: 'alerts',
   label: 'Alerts',
   icon: Bell,
   isPrimary: true,
-  mpid: "4589d793-921c-42fa-9300-673926026dc2"
+  mpid: "0865cb2a-3bc4-40d3-a22a-fadf43744ac6"
 }, {
   id: 'content',
   label: 'Content Creator',
   icon: PenTool,
   isPrimary: true,
-  mpid: "c2cc694e-4297-4887-88eb-45120f8b370e"
+  mpid: "c09178f9-9012-4adc-9327-f0761303cb65"
 }, {
   id: 'planner',
   label: 'Post Planner',
   icon: Calendar,
   isPrimary: true,
-  mpid: "43ebe17a-b988-4c13-81bb-04db9220c523"
+  mpid: "839c2f02-a6a4-430e-8bae-dd9f4242819d"
 }, {
   id: 'analytics',
   label: 'Analytics',
   icon: BarChart3,
   isPrimary: true,
-  mpid: "7db4d8b7-ee5c-41a4-8dfb-cdb0052c18db"
+  mpid: "4c7c4f0a-62be-411e-90d0-db78caf9a8ac"
 }, {
   id: 'preferences',
   label: 'Preferences',
   icon: Settings,
   isPrimary: true,
-  mpid: "16b930e7-5756-4b74-a74b-35b73f6d265b"
+  mpid: "626c513e-975c-4968-9a3c-d27b7de402b4"
 }, {
   id: 'connections',
   label: 'Connections',
   icon: Link,
   isPrimary: true,
-  mpid: "b72f888f-5231-4855-a933-31f99bf756e7"
+  mpid: "2af21926-0170-4ef9-b512-70b42f729c8e"
 }, {
   id: 'content-hub',
   label: 'Content Hub',
   icon: FolderOpen,
   isPrimary: false,
-  mpid: "0a30ff2e-bfa7-4b03-800e-30759df18fc4"
+  mpid: "ba880cb1-ba29-471d-becf-ca2c3a6ca709"
 }, {
   id: 'audience',
   label: 'Audience Analytics',
   icon: Users,
   isPrimary: false,
-  mpid: "3673c971-fef7-41f0-8b81-4ea656ce3a50"
+  mpid: "5998c4aa-c2e1-464e-80e9-1bb505b215f9"
 }, {
   id: 'hashtags',
   label: 'Hashtag Organizer',
   icon: Hash,
   isPrimary: false,
-  mpid: "9ea50670-73c2-47d0-bd3f-def405d762e0"
+  mpid: "a9eedd42-9887-4941-9330-1052240eb2b3"
 }];
 const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
   activeSection,
@@ -232,29 +232,29 @@ const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
                   </g>
                 </svg>
               </div>
-              <h1 className="text-xl font-bold text-gray-900 dark:text-white" data-magicpath-id="52" data-magicpath-path="SidebarNavigation.tsx">Reaxo</h1>
+              <h1 className="text-xl font-bold text-gray-900 dark:text-white" data-magicpath-id="52" data-magicpath-path="SidebarNavigation.tsx"><em data-magicpath-id="53" data-magicpath-path="SidebarNavigation.tsx">R</em>eaxo</h1>
             </motion.div>}
         </AnimatePresence>
         
-        <button onClick={onToggleCollapse} className="hidden lg:flex p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label={isCollapsed ? 'Expand sidebar' : 'Collapse sidebar'} data-magicpath-id="53" data-magicpath-path="SidebarNavigation.tsx">
-          {isCollapsed ? <ChevronRight size={16} className="text-gray-600 dark:text-gray-400" data-magicpath-id="54" data-magicpath-path="SidebarNavigation.tsx" /> : <ChevronLeft size={16} className="text-gray-600 dark:text-gray-400" data-magicpath-id="55" data-magicpath-path="SidebarNavigation.tsx" />}
+        <button onClick={onToggleCollapse} className="hidden lg:flex p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label={isCollapsed ? 'Expand sidebar' : 'Collapse sidebar'} data-magicpath-id="54" data-magicpath-path="SidebarNavigation.tsx">
+          {isCollapsed ? <ChevronRight size={16} className="text-gray-600 dark:text-gray-400" data-magicpath-id="55" data-magicpath-path="SidebarNavigation.tsx" /> : <ChevronLeft size={16} className="text-gray-600 dark:text-gray-400" data-magicpath-id="56" data-magicpath-path="SidebarNavigation.tsx" />}
         </button>
       </div>
 
       {/* Navigation Items */}
-      <nav className="flex-1 p-4 space-y-2 overflow-y-auto" data-magicpath-id="56" data-magicpath-path="SidebarNavigation.tsx">
+      <nav className="flex-1 p-4 space-y-2 overflow-y-auto" data-magicpath-id="57" data-magicpath-path="SidebarNavigation.tsx">
         {/* Primary Items */}
-        <div className="space-y-1" data-magicpath-id="57" data-magicpath-path="SidebarNavigation.tsx">
-          {navigationItems.filter(item => item.isPrimary).map(item => <NavigationItem key={item.id} item={item} isActive={activeSection === item.id} isCollapsed={isCollapsed} accentColor={accentColor} onClick={() => handleItemClick(item.id)} data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-id="58" data-magicpath-path="SidebarNavigation.tsx" />)}
+        <div className="space-y-1" data-magicpath-id="58" data-magicpath-path="SidebarNavigation.tsx">
+          {navigationItems.filter(item => item.isPrimary).map(item => <NavigationItem key={item.id} item={item} isActive={activeSection === item.id} isCollapsed={isCollapsed} accentColor={accentColor} onClick={() => handleItemClick(item.id)} data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-id="59" data-magicpath-path="SidebarNavigation.tsx" />)}
         </div>
 
         {/* Secondary Items */}
-        {!isCollapsed && <div className="pt-4" data-magicpath-id="59" data-magicpath-path="SidebarNavigation.tsx">
-            <div className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2" data-magicpath-id="60" data-magicpath-path="SidebarNavigation.tsx">
+        {!isCollapsed && <div className="pt-4" data-magicpath-id="60" data-magicpath-path="SidebarNavigation.tsx">
+            <div className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2" data-magicpath-id="61" data-magicpath-path="SidebarNavigation.tsx">
               More Tools
             </div>
-            <div className="space-y-1" data-magicpath-id="61" data-magicpath-path="SidebarNavigation.tsx">
-              {navigationItems.filter(item => !item.isPrimary).map(item => <NavigationItem key={item.id} item={item} isActive={activeSection === item.id} isCollapsed={isCollapsed} accentColor={accentColor} onClick={() => handleItemClick(item.id)} data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-id="62" data-magicpath-path="SidebarNavigation.tsx" />)}
+            <div className="space-y-1" data-magicpath-id="62" data-magicpath-path="SidebarNavigation.tsx">
+              {navigationItems.filter(item => !item.isPrimary).map(item => <NavigationItem key={item.id} item={item} isActive={activeSection === item.id} isCollapsed={isCollapsed} accentColor={accentColor} onClick={() => handleItemClick(item.id)} data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-id="63" data-magicpath-path="SidebarNavigation.tsx" />)}
             </div>
           </div>}
       </nav>
@@ -263,13 +263,13 @@ const SidebarNavigation: React.FC<SidebarNavigationProps> = ({
       {/* Desktop Sidebar */}
       <motion.aside variants={sidebarVariants} animate={isCollapsed ? 'collapsed' : 'expanded'} className="hidden lg:flex flex-col bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 z-30" style={{
       minHeight: '100vh'
-    }} data-magicpath-id="63" data-magicpath-path="SidebarNavigation.tsx">
-        <SidebarContent data-magicpath-id="64" data-magicpath-path="SidebarNavigation.tsx" />
+    }} data-magicpath-id="64" data-magicpath-path="SidebarNavigation.tsx">
+        <SidebarContent data-magicpath-id="65" data-magicpath-path="SidebarNavigation.tsx" />
       </motion.aside>
 
       {/* Mobile Sidebar */}
-      <motion.aside variants={mobileSidebarVariants} animate={isMobileMenuOpen ? 'open' : 'closed'} className="fixed inset-y-0 left-0 w-64 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 z-50 lg:hidden" data-magicpath-id="65" data-magicpath-path="SidebarNavigation.tsx">
-        <SidebarContent data-magicpath-id="66" data-magicpath-path="SidebarNavigation.tsx" />
+      <motion.aside variants={mobileSidebarVariants} animate={isMobileMenuOpen ? 'open' : 'closed'} className="fixed inset-y-0 left-0 w-64 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 z-50 lg:hidden" data-magicpath-id="66" data-magicpath-path="SidebarNavigation.tsx">
+        <SidebarContent data-magicpath-id="67" data-magicpath-path="SidebarNavigation.tsx" />
       </motion.aside>
     </>;
 };
@@ -294,10 +294,10 @@ const NavigationItem: React.FC<NavigationItemProps> = ({
     scale: 1.02
   }} whileTap={{
     scale: 0.98
-  }} aria-label={item.label} data-magicpath-id="67" data-magicpath-path="SidebarNavigation.tsx">
-      <item.icon size={20} className={`flex-shrink-0 ${isActive ? 'text-white' : 'text-gray-500 dark:text-gray-400 group-hover:text-gray-700 dark:group-hover:text-gray-300'}`} data-magicpath-id="68" data-magicpath-path="SidebarNavigation.tsx" />
+  }} aria-label={item.label} data-magicpath-id="68" data-magicpath-path="SidebarNavigation.tsx">
+      <item.icon size={20} className={`flex-shrink-0 ${isActive ? 'text-white' : 'text-gray-500 dark:text-gray-400 group-hover:text-gray-700 dark:group-hover:text-gray-300'}`} data-magicpath-id="69" data-magicpath-path="SidebarNavigation.tsx" />
       
-      <AnimatePresence mode="wait" data-magicpath-id="69" data-magicpath-path="SidebarNavigation.tsx">
+      <AnimatePresence mode="wait" data-magicpath-id="70" data-magicpath-path="SidebarNavigation.tsx">
         {!isCollapsed && <motion.span initial={{
         opacity: 0,
         x: -10
@@ -307,7 +307,7 @@ const NavigationItem: React.FC<NavigationItemProps> = ({
       }} exit={{
         opacity: 0,
         x: -10
-      }} className="font-medium truncate" data-magicpath-id="70" data-magicpath-path="SidebarNavigation.tsx">
+      }} className="font-medium truncate" data-magicpath-id="71" data-magicpath-path="SidebarNavigation.tsx">
             {item.label}
           </motion.span>}
       </AnimatePresence>
