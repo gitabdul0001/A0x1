@@ -611,7 +611,8 @@ const AnalyticsDashboard: React.FC<{
           }} className="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="122" data-magicpath-path="DashboardContentRouter.tsx">
                 <div className="flex items-center space-x-4" data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-id="123" data-magicpath-path="DashboardContentRouter.tsx">
                   <div className="w-12 h-12 rounded-lg flex items-center justify-center text-white" style={{
-                backgroundColor: platform.color
+                backgroundColor: platform.color,
+                background: "rgb(227 64 94 / 0)"
               }} data-magicpath-uuid={(platform as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:unknwon" data-magicpath-id="124" data-magicpath-path="DashboardContentRouter.tsx">
                     {platform.logo}
                   </div>
